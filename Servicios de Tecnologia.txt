@@ -1,0 +1,156 @@
+Este informe técnico estructural transforma el documento "Propuesta Estratégica de Infraestructura Tecnológica - Start Hub" en un plan de implementación de procesos para el escalamiento del portafolio institucional.
+
+## Resumen Ejecutivo
+
+| ID | Título de la Propuesta | Área | Prioridad Percibida |
+| :--- | :--- | :--- | :--- |
+| **IT-01** | Marca Digital y Landing Page | Crecimiento y Conversión | Alta |
+| **IT-02** | Chatbot de Ventas (Fase Beta) | Crecimiento y Conversión | Alta |
+| **IT-03** | Chatbot de Asesoría Avanzada | Crecimiento y Conversión | Media-Alta |
+| **IT-04** | Automatización 360° | Eficiencia Operativa | Crítica |
+| **IT-05** | Carga Masiva de Productos | Eficiencia Operativa | Alta |
+| **IT-06** | Infraestructura para Legalización | Eficiencia Operativa | Media-Alta |
+| **IT-07** | Data Analytics para Ventas | Inteligencia de Negocio | Alta |
+| **IT-08** | Web Scraping de Competencia | Inteligencia de Negocio | Media |
+| **IT-09** | Chatbot de Conocimiento (RAG) | Inteligencia de Negocio | Media |
+| **IT-10** | Tracking Hub (Seguimiento) | Logística e Importaciones | Crítica |
+
+---
+
+## Fichas de Detalle
+
+### IT-01: Marca Digital y Landing Page
+**Descripción:** Implementación de activos web responsivos para la captación de leads y validación comercial de ofertas digitales.
+* **Componentes Clave:**
+    * Diseño de interfaz responsiva.
+    * Configuración de servicios de hosting y dominio.
+    * Instalación de píxeles de seguimiento (Meta/Google).
+    * Integración de formularios con bases de datos.
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Diseñador UI/UX, Desarrollador Web, Especialista en Marketing Digital[cite: 1].
+    * **Herramientas:** Hosting, gestores de etiquetas (GTM), bases de datos SQL/NoSQL.
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * Tasa de conversión de visitantes a leads.
+    * Tiempo de carga de la página (LCP).
+
+### IT-02: Chatbot de Ventas (Fase Beta)
+**Descripción:** Sistema de automatización para atención primaria y calificación de prospectos vía WhatsApp y entorno Web.
+* **Componentes Clave:**
+    * Árbol de decisión lógico.
+    * Módulo de captura de datos básicos.
+    * Protocolo de escalamiento a agente humano para casos complejos.
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Desarrollador de Chatbots, Especialista en CX[cite: 2].
+    * **Herramientas:** APIs de mensajería (WhatsApp Business API), Plataformas de flujo lógico.
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * Porcentaje de leads filtrados sin intervención humana.
+    * Tiempo medio de respuesta inicial.
+
+### IT-03: Chatbot de Asesoría de Productos y Competencia
+**Descripción:** Implementación de un modelo de lenguaje (LLM) especializado en cierre de ventas mediante persuasión basada en datos técnicos y comparativos.
+* **Componentes Clave:**
+    * Integración con base de datos de productos propia.
+    * Matriz comparativa de competidores predefinida.
+    * [cite_start]Modelo de lenguaje para procesamiento de lenguaje natural (NLP)[cite: 2].
+* **Recursos Necesarios:**
+    * **Perfiles:** Ingeniero de IA, Analista de Producto.
+    * **Herramientas:** Modelos GPT o similares, bases de datos vectoriales.
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * Tasa de cierre de ventas asistida por IA.
+    * Precisión de la información suministrada frente a la matriz de competencia.
+
+### IT-04: Automatización 360° (Adm, Oper, Cont, Pub)
+**Descripción:** Integración técnica de flujos de trabajo existentes para eliminar la carga operativa manual y el error humano en procesos administrativos.
+* **Componentes Clave:**
+    * Conexión vía API entre CRM y software contable.
+    * Integración de plataformas publicitarias (Ads) con sistemas operativos.
+    * [cite_start]Sincronización de flujos contables[cite: 2].
+* **Recursos Necesarios:**
+    * **Perfiles:** Arquitecto de Automatización (In-house o consultor).
+    * **Herramientas:** Zapier, Make (Integromat), APIs disponibles en software tercero.
+    * **Tiempo:** Información pendiente (depende de disponibilidad de APIs).
+* **Indicadores de Éxito (KPIs):**
+    * Reducción de horas hombre en tareas repetitivas.
+    * Disminución del porcentaje de errores en registros contables/operativos.
+
+### IT-05: Carga Masiva de Productos
+**Descripción:** Herramienta de sincronización masiva para la actualización de catálogos entre almacén físico y tienda virtual.
+* **Componentes Clave:**
+    * Script/Plugin para procesamiento de archivos CSV/Excel.
+    * [cite_start]Sincronización bidireccional de fotos, precios y niveles de stock[cite: 2].
+* **Recursos Necesarios:**
+    * **Perfiles:** Desarrollador Backend, Gestor de Inventarios.
+    * **Herramientas:** Software de gestión de catálogo (Shopify/VTEX/WooCommerce), Scripts de integración.
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * Tiempo de procesamiento de carga de catálogo.
+    * Índice de discrepancia de stock entre almacén y tienda.
+
+### IT-06: Infraestructura para Legalización
+**Descripción:** Ecosistema digital diseñado para agilizar la formalización técnica y financiera de nuevas unidades de negocio.
+* **Componentes Clave:**
+    * Repositorio documental centralizado.
+    * Sistema de alertas de cumplimiento legal/tributario.
+    * [cite_start]Configuración técnica de pasarelas de pago para nuevas entidades legales[cite: 2].
+* **Recursos Necesarios:**
+    * **Perfiles:** Consultor Legal-Tech, Administrador de Sistemas.
+    * **Herramientas:** Software de gestión documental, Pasarelas de pago (Stripe, PayU, etc.).
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * Tiempo promedio de habilitación técnica de nueva entidad.
+    * Cumplimiento de hitos legales en fechas programadas.
+
+### IT-07: Data Analytics para Ventas
+**Descripción:** Centralización y visualización de indicadores críticos de marketing y ventas para la toma de decisiones basada en evidencia.
+* **Componentes Clave:**
+    * Dashboards de visualización ejecutiva.
+    * [cite_start]Extracción de datos de plataformas de marketing y ventas (ETL)[cite: 2].
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Analista de Datos (BI)[cite: 2].
+    * **Herramientas:** PowerBI, Looker Studio.
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * Disponibilidad de datos en tiempo real.
+    * Incremento en la precisión de los pronósticos de ventas.
+
+### IT-08: Web Scraping de Precios Competencia
+**Descripción:** Sistema automatizado de extracción de datos de competidores externos para ajustar estrategias de precios dinámicos.
+* **Componentes Clave:**
+    * Scripts de extracción automatizada.
+    * Entrega de datos en formatos estructurados (Base de datos o CSV).
+* **Recursos Necesarios:**
+    * **Perfiles:** Desarrollador de Software / Data Engineer.
+    * **Herramientas:** Frameworks de scraping (Selenium, Scrapy), Servidores proxy.
+    * **Tiempo:** Mantenimiento mensual recurrente.
+* **Indicadores de Éxito (KPIs):**
+    * Frecuencia de actualización de la matriz de precios.
+    * Margen de competitividad de precios frente al mercado.
+
+### IT-09: Chatbot de Conocimiento Interno (RAG)
+**Descripción:** Implementación de inteligencia artificial basada en recuperación de información (RAG) para soporte interno en procesos de RRHH y operativos.
+* **Componentes Clave:**
+    * Base de datos vectorial con documentos empresariales (PDF/Manuales).
+    * [cite_start]Restricción de respuestas exclusiva a información oficial[cite: 2].
+* **Recursos Necesarios:**
+    * **Perfiles:** Ingeniero de IA, Responsable de Digitalización de Archivos.
+    * **Herramientas:** Arquitectura RAG, Documentos corporativos digitalizados.
+    * **Tiempo:** Información pendiente (depende de la digitalización previa).
+* **Indicadores de Éxito (KPIs):**
+    * Reducción de consultas manuales a los departamentos de RRHH y soporte técnico.
+
+### IT-10: Tracking Hub (Seguimiento de Importaciones)
+**Descripción:** Interfaz de transparencia logística que permite el rastreo en tiempo real de mercancías desde origen hasta destino final.
+* **Componentes Clave:**
+    * Conexión con APIs de aduanas y transportistas internacionales.
+    * Interfaz de usuario para rastreo por número de guía.
+    * [cite_start]Visualización de estados de pedido en tiempo real[cite: 2].
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Desarrollador Frontend, Especialista en Logística Internacional[cite: 2].
+    * **Herramientas:** APIs de proveedores logísticos y entidades aduaneras.
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * Reducción de tickets de soporte relacionados con estado de pedido.
+    * Nivel de satisfacción del cliente (NPS logístico).

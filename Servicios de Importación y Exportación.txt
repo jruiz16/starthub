@@ -1,0 +1,45 @@
+[cite_start]Este informe técnico describe la estructuración del servicio de comercio exterior tercerizado, diseñado para empresas y emprendedores que carecen de infraestructura interna para gestionar procesos de importación y exportación[cite: 1].
+
+## Resumen Ejecutivo
+
+| ID | Título de la Propuesta | Área | Prioridad Percibida |
+| :--- | :--- | :--- | :--- |
+| **IE-01** | Consultoría y Asistencia Técnica Inicial | Comercio Exterior (Pre-operativa) | Alta |
+| **IE-02** | Gestión de Resultados y Operaciones (Plus+) | Comercio Exterior (Ejecución) | Crítica |
+
+---
+
+## Fichas de Detalle
+
+### IE-01: Consultoría y Asistencia Técnica Inicial
+[cite_start]**Descripción:** Evaluación técnica preliminar para determinar la viabilidad regulatoria y financiera de una operación de comercio exterior[cite: 1].
+* **Componentes Clave:**
+    * [cite_start]Clasificación arancelaria técnica de mercancías[cite: 1].
+    * [cite_start]Auditoría de restricciones legales y requisitos de vistos buenos (INVIMA, ICA, entre otros)[cite: 1].
+    * [cite_start]Revisión de cumplimiento de normas técnicas y requerimientos de etiquetado[cite: 1].
+    * [cite_start]Proyección de costeo aproximado de la operación[cite: 1].
+    * [cite_start]Entrega de recomendaciones estratégicas para la importación[cite: 1].
+* **Recursos Necesarios:**
+    * **Perfiles:** Especialista en Clasificación Arancelaria, Consultor en Regulación Aduanera.
+    * **Herramientas:** Bases de datos arancelarias, plataformas de entidades gubernamentales (VUCE).
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * Nivel de precisión en el costeo proyectado frente al real.
+    * Tasa de cumplimiento documental en la fase de pre-inspección.
+
+### IE-02: Gestión de Resultados y Operaciones (Plus+)
+[cite_start]**Descripción:** Ejecución y supervisión de la cadena de suministro internacional, desde la validación del origen hasta la preparación para el ingreso legal al país[cite: 1].
+* **Componentes Clave:**
+    * [cite_start]Sourcing: Búsqueda o validación técnica de proveedores en China[cite: 1].
+    * [cite_start]Gestión documental aduanera y revisión de soportes de importación[cite: 1].
+    * [cite_start]Determinación del término de negociación (Incoterm) óptimo según la operación[cite: 1].
+    * [cite_start]Coordinación logística multimodal: Aéreo, marítimo, OTM o Zona Franca[cite: 1].
+    * [cite_start]Supervisión de la etapa previa a la nacionalización de mercancías[cite: 1].
+* **Recursos Necesarios:**
+    * **Perfiles:** Agente de Sourcing (China), Coordinador Logístico, Analista de Documentación.
+    * **Herramientas:** Software de seguimiento de carga, redes de agentes de carga internacionales.
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * Tiempo de ciclo de importación (Lead Time).
+    * Porcentaje de reducción de costos logísticos mediante selección de Incoterm.
+    * Índice de confiabilidad de proveedores validados.

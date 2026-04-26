@@ -1,0 +1,117 @@
+Este informe técnico organiza las capacidades y servicios definidos en el documento "Marketing E-Commerce.pdf" bajo una estructura de procesos de negocio orientada a resultados.
+
+## Resumen Ejecutivo
+
+| ID | Título de la Propuesta | Área | Prioridad Percibida |
+| :--- | :--- | :--- | :--- |
+| **EC-01** | Dirección Estratégica Digital | Estrategia Corporativa | [cite_start]Alta [cite: 2] |
+| **EC-02** | Growth & Performance | Marketing de Resultados | [cite_start]Alta [cite: 13] |
+| **EC-03** | Data Analytics & Business Intelligence | Inteligencia de Negocios | [cite_start]Media-Alta [cite: 24] |
+| **EC-04** | Inteligencia Artificial Aplicada | Innovación Tecnológica | [cite_start]Media [cite: 35] |
+| **EC-05** | Operación de Ecommerce | Gestión Operativa | [cite_start]Crítica [cite: 46] |
+| **EC-06** | Estrategia Comercial Ecommerce | Revenue Management | [cite_start]Alta [cite: 57] |
+
+---
+
+## Fichas de Detalle
+
+### EC-01: Dirección Estratégica Digital
+[cite_start]**Descripción:** Marco de planificación y gobernanza para la ejecución de iniciativas digitales omnicanal y el escalamiento del modelo de negocio. [cite: 2, 8, 12]
+* **Componentes Clave:**
+    * [cite_start]Diseño y ejecución del plan digital 360°. [cite: 3]
+    * [cite_start]Estructuración de funnels de conversión. [cite: 5]
+    * [cite_start]Definición de estrategia omnicanal para ecommerce, retail y marketplaces. [cite: 8]
+    * [cite_start]Planeación de crecimiento por etapas: adquisición, monetización y retención. [cite: 9]
+    * [cite_start]Roadmap de escalamiento de la unidad de negocio. [cite: 12]
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Dirección comercial y equipo de marketing. [cite: 7]
+    * [cite_start]**Herramientas:** Canales de venta (ecommerce, marketplaces). [cite: 8]
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * [cite_start]Costo de Adquisición de Cliente (CAC). [cite: 6]
+    * [cite_start]Retorno de la Inversión Publicitaria (ROAS). [cite: 6]
+    * [cite_start]Valor de Vida del Cliente (LTV). [cite: 6]
+
+### EC-02: Growth & Performance
+[cite_start]**Descripción:** Ejecución de tácticas digitales orientadas a la captación de tráfico calificado y la optimización de la tasa de conversión en activos propios y de terceros. [cite: 13, 19, 22]
+* **Componentes Clave:**
+    * [cite_start]Gestión de pauta pagada (SEM, Paid Media) y posicionamiento orgánico (SEO). [cite: 14]
+    * [cite_start]Optimización de conversión (CRO) mediante A/B Testing. [cite: 15, 16]
+    * [cite_start]Automatización de marketing vía Email, SMS y WhatsApp. [cite: 17]
+    * [cite_start]Estrategias de lanzamiento de productos (Go-To-Market). [cite: 21]
+    * [cite_start]Implementación de loops de crecimiento y viralidad. [cite: 23]
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Especialistas en tráfico, analistas UX/UI. [cite: 14, 18, 19]
+    * [cite_start]**Herramientas:** Plataformas de automatización de marketing y gestión de pauta. [cite: 17, 22]
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * [cite_start]Tasa de conversión en landings y páginas de producto (PDPs). [cite: 15, 20]
+    * [cite_start]Volumen de tráfico orgánico y pagado. [cite: 19]
+    * [cite_start]Eficiencia de la pauta en marketplaces. [cite: 22]
+
+### EC-03: Data Analytics & Business Intelligence
+[cite_start]**Descripción:** Infraestructura de medición y análisis avanzado de datos para la optimización de la rentabilidad y el comportamiento del usuario. [cite: 24, 30, 33]
+* **Componentes Clave:**
+    * [cite_start]Construcción de dashboards ejecutivos para visualización de datos. [cite: 25]
+    * [cite_start]Modelado de atribución y segmentación avanzada. [cite: 26, 29]
+    * [cite_start]Análisis de cohortes, churn y predicción de ventas. [cite: 27, 28]
+    * [cite_start]Análisis de unit economics (margen y payback). [cite: 31]
+    * [cite_start]Análisis de comportamiento mediante mapas de calor y embudos. [cite: 33]
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Analistas de datos y business intelligence. [cite: 24, 25]
+    * [cite_start]**Herramientas:** Power BI y Data Studio. [cite: 25]
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * [cite_start]Precisión en el forecasting de demanda y revenue. [cite: 32]
+    * [cite_start]Margen de contribución. [cite: 31]
+    * [cite_start]Performance de catálogo (rotación de top sellers). [cite: 34]
+
+### EC-04: Inteligencia Artificial Aplicada
+[cite_start]**Descripción:** Integración de modelos predictivos y procesos automatizados mediante IA para mejorar la experiencia de usuario y la eficiencia operativa. [cite: 35, 37, 43]
+* **Componentes Clave:**
+    * [cite_start]Modelos predictivos de lead scoring y abandono. [cite: 36, 39]
+    * [cite_start]Implementación de chatbots inteligentes para ventas. [cite: 38]
+    * [cite_start]Recomendadores dinámicos para cross-sell y upsell. [cite: 42]
+    * [cite_start]Automatización de precios dinámicos y generación de contenido. [cite: 45, 40]
+    * [cite_start]Optimización algorítmica de la inversión publicitaria. [cite: 41]
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Especialistas en IA y automatización. [cite: 35, 37]
+    * [cite_start]**Herramientas:** Modelos de forecasting y motores de personalización. [cite: 43, 44]
+    * **Tiempo:** Información pendiente.
+* **Indicadores de Éxito (KPIs):**
+    * [cite_start]Reducción en la tasa de abandono. [cite: 39]
+    * [cite_start]Precisión en el forecasting de inventario. [cite: 44]
+    * [cite_start]Incremento en conversión por personalización dinámica. [cite: 43]
+
+### EC-05: Operación de Ecommerce
+[cite_start]**Descripción:** Administración integral de la cadena de suministro digital, plataformas de venta y procesos de cumplimiento. [cite: 46, 47, 50]
+* **Componentes Clave:**
+    * [cite_start]Gestión de plataformas (Shopify, VTEX, WooCommerce). [cite: 47]
+    * [cite_start]Administración de catálogo y sincronización multicanal de inventario. [cite: 48, 49]
+    * [cite_start]Coordinación de logística: fulfillment, última milla y devoluciones. [cite: 50]
+    * [cite_start]Integración de pasarelas de pago y sistemas de gestión de pedidos (OMS). [cite: 52, 53]
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Gestores operativos y especialistas logísticos. [cite: 46, 50, 54]
+    * [cite_start]**Herramientas:** Plataformas ecommerce y sistemas de gestión logística. [cite: 47, 53]
+    * **Tiempo:** Operación continua.
+* **Indicadores de Éxito (KPIs):**
+    * [cite_start]Tiempos de entrega y tasa de error en pedidos. [cite: 55]
+    * [cite_start]Net Promoter Score (NPS) operativo. [cite: 55]
+    * [cite_start]Optimización de costos logísticos. [cite: 56]
+
+### EC-06: Estrategia Comercial Ecommerce
+[cite_start]**Descripción:** Diseño de planes de ingresos y tácticas comerciales para maximizar la rentabilidad del catálogo digital. [cite: 57, 58, 67]
+* **Componentes Clave:**
+    * [cite_start]Gestión de calendario comercial (Cyber Days, Black Friday). [cite: 59]
+    * [cite_start]Ejecución de bundling, cross-selling y upselling. [cite: 61]
+    * [cite_start]Definición de estrategia de surtido y profundidad de catálogo. [cite: 62]
+    * [cite_start]Diseño de programas de membresía o suscripción. [cite: 65]
+    * [cite_start]Estrategia de pricing basada en datos competitivos. [cite: 66]
+* **Recursos Necesarios:**
+    * [cite_start]**Perfiles:** Especialistas en revenue growth y estrategia comercial. [cite: 58]
+    * [cite_start]**Herramientas:** Información de competencia y modelos de rentabilidad. [cite: 66, 67]
+    * [cite_start]**Tiempo:** Planificación estacional. [cite: 59]
+* **Indicadores de Éxito (KPIs):**
+    * [cite_start]Crecimiento de ingresos (Revenue Growth). [cite: 58]
+    * [cite_start]Customer Lifetime Value (LTV). [cite: 64]
+    * [cite_start]Margen de rentabilidad comercial. [cite: 67]

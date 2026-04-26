@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blueprint Operativo Start-Hub | Matriz de Aceleración 3X+</title>
+    <meta name="description" content="Impulsamos el crecimiento de ideas y startups disruptivas a través de una experiencia de aceleración boutique, exclusiva y profundamente humana. Descubre la Matriz 3X+.">
+    <meta name="keywords" content="Start-Hub, aceleradora, startups, Blueprint Operativo, 3X+, innovación, emprendimiento">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Login Screen -->
+    <div id="loginScreen" class="login-screen">
+        <div class="login-container">
+            <div class="login-brand">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">START<span class="logo-accent">-HUB</span></span>
+            </div>
+            <h2 class="login-title">Acceso Restringido</h2>
+            <p class="login-desc">Por favor, ingresa la clave de acceso para ver el Blueprint Operativo.</p>
+            <div class="login-form">
+                <input type="password" id="passwordInput" placeholder="Clave de acceso" class="login-input">
+                <button id="loginBtn" class="btn btn-primary btn-login">
+                    <span>Acceder</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+            <p id="loginError" class="login-error">Clave incorrecta. Inténtalo de nuevo.</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">START<span class="logo-accent">-HUB</span></span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#hero" class="nav-link active">Inicio</a>
+                <a href="#methodology" class="nav-link">Metodología 3X+</a>
+                <a href="#pillars" class="nav-link">Pilares</a>
+                <a href="#dashboard" class="nav-link">Dashboard</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-effects">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <div class="hero-grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Blueprint Operativo 2025
+            </div>
+            <h1 class="hero-title">
+                Blueprint Operativo Start-Hub:
+                <span class="hero-title-accent">La Matriz de Aceleración 3X+</span>
+            </h1>
+            <p class="hero-slogan">"Elevamos ideas, creamos líderes"</p>
+            <p class="hero-description">
+                Impulsamos el crecimiento de ideas y startups disruptivas a través de una experiencia de aceleración boutique, exclusiva y profundamente humana.
+            </p>
+            <div class="hero-actions">
+                <a href="#dashboard" class="btn btn-primary">
+                    <span>Explorar Portafolio</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#methodology" class="btn btn-secondary">
+                    <span>Nuestra Metodología</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="stat-number" data-target="30">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Servicios Estratégicos</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-label">Fases de Aceleración</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="stat-number" data-target="6">0</span>
+                    <span class="stat-label">Áreas de Impacto</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section class="methodology" id="methodology">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Nuestra Metodología</span>
+                <h2 class="section-title">La Ruta <span class="text-gradient">3X+</span></h2>
+                <p class="section-subtitle">Tres fases de transformación que convierten ideas en imperios corporativos con impacto global.</p>
+            </div>
+            <div class="methodology-grid">
+                <!-- EXplorar+ -->
+                <div class="method-card" data-phase="explorar">
+                    <div class="method-card-glow"></div>
+                    <div class="method-card-content">
+                        <div class="method-phase-badge">Fase 01</div>
+                        <div class="method-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+                                <path d="M11 8v6M8 11h6"/>
+                            </svg>
+                        </div>
+                        <h3 class="method-title">EX<span class="highlight-text">plorar</span>+</h3>
+                        <p class="method-label">Validación Estratégica</p>
+                        <p class="method-description">
+                            Descubrimiento de esencia, diagnósticos 360°, validación ágil de conceptos y mitigación de riesgos tempranos antes de inyectar capital.
+                        </p>
+                        <ul class="method-features">
+                            <li>Diagnóstico 360° del modelo de negocio</li>
+                            <li>Validación ágil de conceptos</li>
+                            <li>Análisis de riesgos tempranos</li>
+                            <li>Due Diligence estratégica</li>
+                        </ul>
+                    </div>
+                    <div class="method-card-number">01</div>
+                </div>
+                <!-- EXpandir+ -->
+                <div class="method-card" data-phase="expandir">
+                    <div class="method-card-glow"></div>
+                    <div class="method-card-content">
+                        <div class="method-phase-badge">Fase 02</div>
+                        <div class="method-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2v20M2 12h20"/>
+                                <path d="m17 7 5 5-5 5M7 7l-5 5 5 5"/>
+                            </svg>
+                        </div>
+                        <h3 class="method-title">EX<span class="highlight-text">pandir</span>+</h3>
+                        <p class="method-label">Implementación y Optimización</p>
+                        <p class="method-description">
+                            Creación del MVP funcional, estrategias Go-To-Market, automatización de infraestructura operativa y máxima eficiencia técnica.
+                        </p>
+                        <ul class="method-features">
+                            <li>MVP funcional y Go-To-Market</li>
+                            <li>Automatización operativa 360°</li>
+                            <li>Ecosistema digital completo</li>
+                            <li>Growth & Performance</li>
+                        </ul>
+                    </div>
+                    <div class="method-card-number">02</div>
+                </div>
+                <!-- EXcalar+ -->
+                <div class="method-card" data-phase="excalar">
+                    <div class="method-card-glow"></div>
+                    <div class="method-card-content">
+                        <div class="method-phase-badge">Fase 03</div>
+                        <div class="method-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5"/>
+                                <path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="method-title">EX<span class="highlight-text">calar</span>+</h3>
+                        <p class="method-label">Internacionalización y Consolidación</p>
+                        <p class="method-description">
+                            Expansión a mercados internacionales, IA aplicada, consolidación de legado corporativo y conexión con redes globales de élite.
+                        </p>
+                        <ul class="method-features">
+                            <li>International Fast-Track</li>
+                            <li>IA aplicada al negocio</li>
+                            <li>Consolidación de legado corporativo</li>
+                            <li>Redes globales de élite</li>
+                        </ul>
+                    </div>
+                    <div class="method-card-number">03</div>
+                </div>
+            </div>
+            <!-- Connection Line -->
+            <div class="methodology-flow">
+                <div class="flow-line"></div>
+                <div class="flow-dot flow-dot-1"></div>
+                <div class="flow-dot flow-dot-2"></div>
+                <div class="flow-dot flow-dot-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pillars Section -->
+    <section class="pillars" id="pillars">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">ADN Start-Hub</span>
+                <h2 class="section-title">Pilares de <span class="text-gradient">Valor</span></h2>
+                <p class="section-subtitle">Los cuatro ejes que definen nuestra propuesta única y nos posicionan como aceleradora boutique de élite.</p>
+            </div>
+            <div class="pillars-grid">
+                <div class="pillar-card" data-pillar="1">
+                    <div class="pillar-icon-wrapper">
+                        <div class="pillar-icon-bg"></div>
+                        <svg class="pillar-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">Excelencia Estratégica</h3>
+                    <p class="pillar-description">Cada decisión está respaldada por un marco lógico de análisis profundo. No improvisamos: diseñamos con precisión quirúrgica.</p>
+                    <div class="pillar-line"></div>
+                </div>
+                <div class="pillar-card" data-pillar="2">
+                    <div class="pillar-icon-wrapper">
+                        <div class="pillar-icon-bg"></div>
+                        <svg class="pillar-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">Conexión Global</h3>
+                    <p class="pillar-description">Acceso a redes de élite internacionales, mentores estratégicos y mercados clave para la expansión sin fronteras.</p>
+                    <div class="pillar-line"></div>
+                </div>
+                <div class="pillar-card" data-pillar="3">
+                    <div class="pillar-icon-wrapper">
+                        <div class="pillar-icon-bg"></div>
+                        <svg class="pillar-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">Innovación Disruptiva</h3>
+                    <p class="pillar-description">Integramos tecnología de vanguardia, IA y metodologías ágiles para romper paradigmas y crear ventajas competitivas sostenibles.</p>
+                    <div class="pillar-line"></div>
+                </div>
+                <div class="pillar-card" data-pillar="4">
+                    <div class="pillar-icon-wrapper">
+                        <div class="pillar-icon-bg"></div>
+                        <svg class="pillar-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">Exclusividad Humana & Experiencia Transformadora</h3>
+                    <p class="pillar-description">No somos una fábrica de startups. Cada proyecto recibe atención personalizada, mentoría profunda y acompañamiento humano real.</p>
+                    <div class="pillar-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard" id="dashboard">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Resumen Ejecutivo</span>
+                <h2 class="section-title">Dashboard <span class="text-gradient">Operativo</span></h2>
+                <p class="section-subtitle">Portafolio completo de servicios estratégicos clasificados por fase, área y prioridad de implementación.</p>
+            </div>
+
+            <!-- Dashboard Controls -->
+            <div class="dashboard-controls">
+                <!-- Search Bar -->
+                <div class="search-wrapper" id="searchWrapper">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+                    </svg>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Buscar servicio por nombre, ID o área...">
+                    <button class="search-clear" id="searchClear" aria-label="Clear search">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                    </button>
+                </div>
+
+                <!-- Filters Row -->
+                <div class="filters-row">
+                    <!-- Phase Filter -->
+                    <div class="filter-group">
+                        <label class="filter-label">Fase 3X+</label>
+                        <div class="filter-chips" id="phaseFilters">
+                            <button class="filter-chip active" data-filter="phase" data-value="all">Todas</button>
+                            <button class="filter-chip" data-filter="phase" data-value="EXplorar+">
+                                <span class="chip-dot phase-explorar"></span>EXplorar+
+                            </button>
+                            <button class="filter-chip" data-filter="phase" data-value="EXpandir+">
+                                <span class="chip-dot phase-expandir"></span>EXpandir+
+                            </button>
+                            <button class="filter-chip" data-filter="phase" data-value="EXcalar+">
+                                <span class="chip-dot phase-excalar"></span>EXcalar+
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Area Filter -->
+                    <div class="filter-group">
+                        <label class="filter-label">Área</label>
+                        <div class="custom-select" id="areaSelect">
+                            <button class="select-trigger" id="areaTrigger">
+                                <span>Todas las Áreas</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                            </button>
+                            <div class="select-dropdown" id="areaDropdown">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Priority Filter -->
+                    <div class="filter-group">
+                        <label class="filter-label">Prioridad</label>
+                        <div class="filter-chips" id="priorityFilters">
+                            <button class="filter-chip active" data-filter="priority" data-value="all">Todas</button>
+                            <button class="filter-chip" data-filter="priority" data-value="Crítica">
+                                <span class="chip-dot priority-critica"></span>Crítica
+                            </button>
+                            <button class="filter-chip" data-filter="priority" data-value="Alta">
+                                <span class="chip-dot priority-alta"></span>Alta
+                            </button>
+                            <button class="filter-chip" data-filter="priority" data-value="Media-Alta">
+                                <span class="chip-dot priority-media-alta"></span>Media-Alta
+                            </button>
+                            <button class="filter-chip" data-filter="priority" data-value="Media">
+                                <span class="chip-dot priority-media"></span>Media
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results count -->
+                <div class="results-bar">
+                    <span class="results-count" id="resultsCount">Mostrando 29 servicios</span>
+                    <button class="btn-reset" id="resetFilters">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                        Restablecer
+                    </button>
+                </div>
+            </div>
+
+            <!-- Data Table -->
+            <div class="table-wrapper">
+                <table class="data-table" id="dataTable">
+                    <thead>
+                        <tr>
+                            <th class="th-id" data-sort="id">
+                                <span>ID</span>
+                                <svg class="sort-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 15 5 5 5-5M7 9l5-5 5 5"/></svg>
+                            </th>
+                            <th class="th-title" data-sort="title">
+                                <span>Título de la Propuesta</span>
+                                <svg class="sort-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 15 5 5 5-5M7 9l5-5 5 5"/></svg>
+                            </th>
+                            <th class="th-area" data-sort="area">
+                                <span>Área</span>
+                                <svg class="sort-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 15 5 5 5-5M7 9l5-5 5 5"/></svg>
+                            </th>
+                            <th class="th-phase" data-sort="phase">
+                                <span>Fase 3X+</span>
+                                <svg class="sort-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 15 5 5 5-5M7 9l5-5 5 5"/></svg>
+                            </th>
+                            <th class="th-priority" data-sort="priority">
+                                <span>Prioridad</span>
+                                <svg class="sort-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m7 15 5 5 5-5M7 9l5-5 5 5"/></svg>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+                <div class="table-empty" id="tableEmpty" style="display: none;">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M8 11h6"/>
+                    </svg>
+                    <p>No se encontraron servicios con los filtros seleccionados.</p>
+                    <button class="btn btn-secondary btn-sm" onclick="resetAllFilters()">Restablecer filtros</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detail Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-panel" id="modalPanel">
+            <div class="modal-header">
+                <div class="modal-header-info">
+                    <span class="modal-id" id="modalId"></span>
+                    <span class="modal-phase-badge" id="modalPhaseBadge"></span>
+                </div>
+                <button class="modal-close" id="modalClose" aria-label="Close modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <div class="modal-meta">
+                    <div class="modal-meta-item">
+                        <span class="meta-label">Área</span>
+                        <span class="meta-value" id="modalArea"></span>
+                    </div>
+                    <div class="modal-meta-item">
+                        <span class="meta-label">Prioridad</span>
+                        <span class="meta-value" id="modalPriority"></span>
+                    </div>
+                </div>
+                <div class="modal-section">
+                    <h4 class="modal-section-title">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+                        Descripción
+                    </h4>
+                    <p id="modalDescription"></p>
+                </div>
+                <div class="modal-section">
+                    <h4 class="modal-section-title">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+                        KPIs Críticos
+                    </h4>
+                    <ul class="modal-kpis" id="modalKpis">
+                        <!-- Populated by JS -->
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h4 class="modal-section-title">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        Componentes Clave
+                    </h4>
+                    <ul class="modal-components" id="modalComponents">
+                        <!-- Populated by JS -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">◆</span>
+                    <span class="logo-text">START<span class="logo-accent">-HUB</span></span>
+                    <p class="footer-tagline">Elevamos ideas, creamos líderes.</p>
+                </div>
+                <div class="footer-info">
+                    <p>Blueprint Operativo — Matriz de Aceleración 3X+</p>
+                    <p>© 2025 Start-Hub. Documento Confidencial.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

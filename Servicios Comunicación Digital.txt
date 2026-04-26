@@ -1,0 +1,86 @@
+## Resumen Ejecutivo
+
+| ID | Título de la Propuesta | Área | Prioridad Percibida |
+| :--- | :--- | :--- | :--- |
+| **PR-01** | Estrategia de Comunicación Digital | Planeación Estratégica | Alta |
+| **PR-02** | Gestión de Redes Sociales | Operaciones Digitales | Media-Alta |
+| **PR-03** | Narrativa de Marca y Storytelling | Branding y Relaciones | Alta |
+| **PR-04** | Campañas de Lanzamiento | Marketing de Producto | Crítica (Puntual) |
+| **PR-05** | Construcción de Comunidad Online | Fidelización y CRM | Media |
+
+---
+
+## Fichas de Detalle
+
+### PR-01: Estrategia de Comunicación Digital
+**Descripción:** Definición del marco lógico y operativo para la presencia digital de la startup, alineando los objetivos de negocio con la ejecución en canales.
+* **Componentes Clave:**
+    * Manual de tono y voz de marca.
+    * Matrices de mensajes clave por segmento.
+    * Matriz de selección de canales (Ecosistema Digital).
+    * Definición de Buyer Persona (Público Objetivo).
+* **Recursos Necesarios:**
+    * **Perfiles:** Estratega de comunicación, Analista de mercado.
+    * **Herramientas:** Software de auditoría digital, frameworks de estrategia.
+    * **Tiempo:** Información pendiente (se requiere cronograma de diagnóstico).
+* **Indicadores de Éxito (KPIs):**
+    * Nivel de alineación de mensajes en canales (Auditoría post-implementación).
+    * Incremento en la tasa de engagement orgánico inicial.
+
+### PR-02: Gestión de Redes Sociales
+**Descripción:** Ejecución táctica y operativa de la presencia de la marca en plataformas sociales para mantener visibilidad constante.
+* **Componentes Clave:**
+    * Calendario editorial mensual.
+    * Producción de piezas gráficas y video (Instagram, LinkedIn, TikTok).
+    * Protocolos de publicación y monitoreo.
+* **Recursos Necesarios:**
+    * **Perfiles:** Community Manager, Diseñador Gráfico / Editor de Video.
+    * **Herramientas:** Herramientas de programación (Metricool, Buffer, etc.), Suite de diseño.
+    * **Tiempo:** Ejecución recurrente (mensual).
+* **Indicadores de Éxito (KPIs):**
+    * Crecimiento de la audiencia (Followers).
+    * Alcance total de las publicaciones.
+    * Frecuencia de publicación (Cumplimiento del calendario).
+
+### PR-03: Narrativa de Marca y Storytelling
+**Descripción:** Estructuración del relato corporativo para optimizar la comunicación de la propuesta de valor ante stakeholders críticos.
+* **Componentes Clave:**
+    * Estructura del "Elevator Pitch".
+    * Documento de narrativa transmedia.
+    * Definición del diferencial competitivo narrado.
+* **Recursos Necesarios:**
+    * **Perfiles:** Copywriter Senior o Storyteller, Equipo fundador (para entrevistas de extracción).
+    * **Herramientas:** Información pendiente.
+    * **Tiempo:** Sprint inicial de definición (estimación: 2-4 semanas).
+* **Indicadores de Éxito (KPIs):**
+    * Tasa de retención de audiencia en presentaciones de Pitch.
+    * Citas o menciones de los mensajes clave en medios o por clientes.
+
+### PR-04: Campañas de Lanzamiento
+**Descripción:** Planificación y ejecución de acciones de comunicación de alto impacto orientadas a la validación de mercado o introducción de nuevos productos.
+* **Componentes Clave:**
+    * Plan de campaña (Pre-launch, Launch, Post-launch).
+    * Set de activos publicitarios y de comunicación masiva.
+    * Protocolo de medición de impacto inmediato.
+* **Recursos Necesarios:**
+    * **Perfiles:** Media Buyer (si incluye pauta), Copywriter, Gestor de proyectos.
+    * **Herramientas:** Plataformas de anuncios (Ads), Landing pages.
+    * **Tiempo:** Basado en hitos de producto (Milestones).
+* **Indicadores de Éxito (KPIs):**
+    * Número de Leads/Registros generados durante la campaña.
+    * Costo de Adquisición de Cliente (CAC) proyectado en la campaña.
+
+### PR-05: Construcción de Comunidad Online
+**Descripción:** Implementación de mecanismos de interacción bidireccional para fomentar la lealtad y el crecimiento orgánico a través de terceros.
+* **Componentes Clave:**
+    * Configuración de canales de comunicación directa (Newsletters, grupos de Slack/WhatsApp).
+    * Programación de eventos digitales o webinars.
+    * Estrategia de moderación y fomento de la conversación.
+* **Recursos Necesarios:**
+    * **Perfiles:** Community Builder / Manager de Relaciones.
+    * **Herramientas:** CRM, plataformas de email marketing (Mailchimp, Klaviyo), herramientas de eventos (Zoom, Meet).
+    * **Tiempo:** Recurrente, con enfoque en escalabilidad.
+* **Indicadores de Éxito (KPIs):**
+    * Tasa de apertura (Open Rate) en newsletters.
+    * Nivel de participación activa en grupos (Mensajes por usuario).
+    * Tasa de recomendación (NPS o similar).
