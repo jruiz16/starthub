@@ -299,7 +299,7 @@ function setupNav(){
 // ===== ANIMATIONS =====
 function setupAnimations(){
   const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")})},{threshold:0.1});
-  $$(".method-card,.pillar-card,.section-header").forEach(el=>{el.classList.add("fade-in");obs.observe(el)});
+  $$(".method-card,.pillar-card,.section-header,.video-container,.download-card").forEach(el=>{el.classList.add("fade-in");obs.observe(el)});
 }
 function animateStats(){
   const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){
