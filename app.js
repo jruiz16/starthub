@@ -289,7 +289,7 @@ function setupNav(){
     link.onclick=()=>{$$(".nav-link").forEach(l=>l.classList.remove("active"));link.classList.add("active");$("#navLinks").classList.remove("open")};
   });
   window.addEventListener("scroll",()=>{
-    const sections=["hero","methodology","pillars","dashboard"];
+    const sections=["hero","methodology","pillars","resources","dashboard","evaluate-module","consolidate-module","blueprint-editor","diagnostico"];
     let current="";
     sections.forEach(id=>{const el=document.getElementById(id);if(el&&window.scrollY>=el.offsetTop-200)current=id});
     $$(".nav-link").forEach(l=>{l.classList.toggle("active",l.getAttribute("href")==="#"+current)});
@@ -299,7 +299,7 @@ function setupNav(){
 // ===== ANIMATIONS =====
 function setupAnimations(){
   const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")})},{threshold:0.1});
-  $$(".method-card,.pillar-card,.section-header,.video-container,.download-card").forEach(el=>{el.classList.add("fade-in");obs.observe(el)});
+  $$(".method-card,.pillar-card,.section-header,.video-container,.download-card,.eval-identity-card,.eval-section .table-wrapper,.drop-zone,.editor-card-list,.editor-section .results-bar,.diag-card").forEach(el=>{el.classList.add("fade-in");obs.observe(el)});
 }
 function animateStats(){
   const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){

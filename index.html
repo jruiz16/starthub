@@ -45,6 +45,10 @@
                 <a href="#pillars" class="nav-link">Pilares</a>
                 <a href="#resources" class="nav-link">Recursos</a>
                 <a href="#dashboard" class="nav-link">Dashboard</a>
+                <a href="#evaluate-module" class="nav-link">Mi Evaluación</a>
+                <a href="#consolidate-module" class="nav-link">Consolidar</a>
+                <a href="#blueprint-editor" class="nav-link">Editor</a>
+                <a href="#diagnostico" class="nav-link">Diagnóstico</a>
             </div>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
@@ -481,6 +485,362 @@
         </div>
     </div>
 
+    <!-- ===== MODULE 1: MI EVALUACIÓN ===== -->
+    <section class="eval-section" id="evaluate-module">
+        <div class="section-container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Herramienta Interna</span>
+                <h2 class="section-title">Mi <span class="text-gradient">Evaluación</span></h2>
+                <p class="section-subtitle">Personaliza la clasificación de cada propuesta según tu criterio y exporta tu evaluación individual en formato JSON.</p>
+            </div>
+
+            <!-- Evaluator Identity -->
+            <div class="eval-identity-card fade-in">
+                <div class="eval-identity-grid">
+                    <div class="eval-field">
+                        <label class="filter-label" for="evalName">Nombre del Evaluador</label>
+                        <input type="text" id="evalName" class="search-input" placeholder="Ej. María García" autocomplete="off">
+                    </div>
+                    <div class="eval-field">
+                        <label class="filter-label" for="evalRole">Rol en el Equipo</label>
+                        <input type="text" id="evalRole" class="search-input" placeholder="Ej. Lead de Producto" autocomplete="off">
+                    </div>
+                    <div class="eval-field eval-field-actions">
+                        <button id="exportEvalBtn" class="btn btn-primary">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                            <span>Exportar mi Evaluación</span>
+                        </button>
+                    </div>
+                </div>
+                <p id="evalIdentityMsg" class="eval-msg" style="display:none;"></p>
+            </div>
+
+            <!-- Evaluation Board -->
+            <div class="table-wrapper fade-in" style="margin-top:1.5rem;">
+                <table class="data-table" id="evalTable">
+                    <thead>
+                        <tr>
+                            <th class="th-id">ID</th>
+                            <th class="th-title">Propuesta</th>
+                            <th class="th-phase" style="width:180px;">Fase 3X+</th>
+                            <th style="width:160px;">Área</th>
+                            <th class="th-priority" style="width:160px;">Prioridad</th>
+                            <th style="width:200px;">Observaciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="evalTableBody">
+                        <!-- Populated by evaluate.js -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MODULE 2: CONSOLIDACIÓN ===== -->
+    <section class="consolidate-section" id="consolidate-module">
+        <div class="section-container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Panel de Coordinación</span>
+                <h2 class="section-title">Consolidación de <span class="text-gradient">Resultados</span></h2>
+                <p class="section-subtitle">Carga múltiples archivos de evaluación JSON del equipo y obtén el consenso automático con un solo clic.</p>
+            </div>
+
+            <!-- Drop Zone -->
+            <div class="drop-zone fade-in" id="dropZone">
+                <div class="drop-zone-inner">
+                    <div class="drop-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="17 8 12 3 7 8"/>
+                            <line x1="12" y1="3" x2="12" y2="15"/>
+                        </svg>
+                    </div>
+                    <p class="drop-title">Arrastra los archivos JSON aquí</p>
+                    <p class="drop-subtitle">o haz clic para seleccionarlos desde tu computadora</p>
+                    <input type="file" id="fileInput" accept=".json" multiple style="display:none;">
+                    <button class="btn btn-secondary btn-sm" id="browseFilesBtn">Seleccionar Archivos</button>
+                </div>
+            </div>
+
+            <!-- Loaded Files List -->
+            <div id="fileListWrapper" style="display:none; margin-top:1.5rem;">
+                <div class="results-bar" style="margin-bottom:1rem;">
+                    <span class="results-count" id="filesLoadedCount">0 archivos cargados</span>
+                    <div style="display:flex;gap:.75rem;align-items:center;">
+                        <button class="btn-reset" id="clearFilesBtn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M19 6l-1 14H6L5 6M10 11v6M14 11v6M8 6V4h8v2"/></svg>
+                            Limpiar
+                        </button>
+                        <button class="btn btn-primary btn-sm" id="consolidateBtn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                            Consolidar Resultados
+                        </button>
+                    </div>
+                </div>
+                <div id="fileTagList" class="file-tag-list"></div>
+            </div>
+
+            <!-- Results Table -->
+            <div id="consolidatedResults" style="display:none; margin-top:2rem;">
+                <div class="results-bar" style="margin-bottom:1rem;">
+                    <span class="results-count" id="consolidatedCount">Resultados consolidados</span>
+                    <button class="btn btn-primary btn-sm" id="exportCsvBtn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg>
+                        Exportar a CSV
+                    </button>
+                </div>
+                <div class="table-wrapper">
+                    <table class="data-table" id="consolidatedTable">
+                        <thead>
+                            <tr>
+                                <th class="th-id">ID</th>
+                                <th class="th-title">Propuesta</th>
+                                <th class="th-phase">Fase Consenso</th>
+                                <th style="width:160px;">Área Consenso</th>
+                                <th class="th-priority">Prioridad Consenso</th>
+                                <th style="width:180px;">Votos / Consenso</th>
+                            </tr>
+                        </thead>
+                        <tbody id="consolidatedBody">
+                            <!-- Populated by evaluate.js -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consolidation Detail Modal -->
+    <div class="modal-overlay" id="consModalOverlay">
+        <div class="modal-panel" id="consModalPanel">
+            <div class="modal-header">
+                <div class="modal-header-info">
+                    <span class="modal-id" id="consModalId"></span>
+                    <span class="modal-phase-badge" id="consModalPhaseBadge"></span>
+                </div>
+                <button class="modal-close" id="consModalClose" aria-label="Close modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h2 class="modal-title" id="consModalTitle"></h2>
+                
+                <div class="modal-section">
+                    <h4 class="modal-section-title">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        Votos del Equipo
+                    </h4>
+                    <div id="consModalVotes" style="display:flex;flex-direction:column;gap:1rem;">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MODULE 3: BLUEPRINT EDITOR ===== -->
+    <section class="editor-section" id="blueprint-editor">
+        <div class="section-container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Trabajo Colaborativo</span>
+                <h2 class="section-title">Editor de <span class="text-gradient">Blueprint</span></h2>
+                <p class="section-subtitle">Edita y enriquece la Descripción, Componentes/Ruta, Justificación y KPIs de cada servicio de forma colaborativa. Exporta el resultado en JSON o CSV.</p>
+            </div>
+
+            <!-- Editor Identity + Export -->
+            <div class="eval-identity-card fade-in">
+                <div class="eval-identity-grid">
+                    <div class="eval-field">
+                        <label class="filter-label" for="editorName">Tu Nombre</label>
+                        <input type="text" id="editorName" class="search-input" placeholder="Ej. Carlos Rodríguez" autocomplete="off">
+                    </div>
+                    <div class="eval-field">
+                        <label class="filter-label" for="editorRole">Tu Rol</label>
+                        <input type="text" id="editorRole" class="search-input" placeholder="Ej. Estratega de Producto" autocomplete="off">
+                    </div>
+                    <div class="eval-field eval-field-actions" style="gap:.75rem;">
+                        <button id="exportBlueprintJson" class="btn btn-primary btn-sm">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                            Exportar JSON
+                        </button>
+                        <button id="exportBlueprintCsv" class="btn btn-secondary btn-sm">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg>
+                            Exportar CSV
+                        </button>
+                    </div>
+                </div>
+                <p id="editorMsg" class="eval-msg" style="display:none;"></p>
+            </div>
+
+            <!-- Filter bar -->
+            <div class="results-bar fade-in" style="margin-top:1.5rem;">
+                <span class="results-count" id="editorCount">29 servicios</span>
+                <div style="display:flex;gap:.5rem;align-items:center;">
+                    <button class="btn btn-sm btn-secondary" id="editorExpandAll" title="Expandir todos">Expandir todos</button>
+                    <button class="btn btn-sm btn-secondary" id="editorCollapseAll" title="Colapsar todos">Colapsar todos</button>
+                </div>
+            </div>
+
+            <!-- Service Cards -->
+            <div id="editorCardList" class="editor-card-list fade-in" style="margin-top:1.5rem;">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MODULE 4: DIAGNÓSTICO DE EMPRESA ===== -->
+    <section class="diag-section" id="diagnostico">
+        <div class="section-container">
+            <div class="section-header fade-in">
+                <span class="section-tag">Evaluación Estratégica</span>
+                <h2 class="section-title">Diagnóstico <span class="text-gradient">3X+</span></h2>
+                <p class="section-subtitle">Evalúa el estado actual de una empresa frente al portafolio de servicios Start-Hub e identifica oportunidades de mejora por fase.</p>
+            </div>
+
+            <!-- STEP 1: Company Info -->
+            <div class="diag-card fade-in" id="diagStep1">
+                <div class="diag-card-header">
+                    <span class="diag-step-badge">Paso 1</span>
+                    <h3 class="diag-card-title">Información de la Empresa</h3>
+                </div>
+                <div class="diag-form-grid">
+                    <div class="eval-field">
+                        <label class="filter-label" for="diagCompanyName">Nombre de la Empresa *</label>
+                        <input type="text" id="diagCompanyName" class="search-input" placeholder="Ej. TechVentures SAS">
+                    </div>
+                    <div class="eval-field">
+                        <label class="filter-label" for="diagSector">Sector / Industria</label>
+                        <select id="diagSector" class="eval-select" style="padding:.75rem 1rem;font-size:.9rem;">
+                            <option value="">Seleccionar sector...</option>
+                            <option value="Tecnología">Tecnología</option>
+                            <option value="Ecommerce">Ecommerce / Retail Digital</option>
+                            <option value="SaaS">SaaS / Software</option>
+                            <option value="Fintech">Fintech</option>
+                            <option value="Salud">Salud / HealthTech</option>
+                            <option value="Educación">Educación / EdTech</option>
+                            <option value="Logística">Logística / Supply Chain</option>
+                            <option value="Alimentos">Alimentos / FoodTech</option>
+                            <option value="Servicios">Servicios Profesionales</option>
+                            <option value="Manufactura">Manufactura / Industrial</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="eval-field">
+                        <label class="filter-label" for="diagWebsite">Página Web</label>
+                        <input type="url" id="diagWebsite" class="search-input" placeholder="https://www.ejemplo.com">
+                    </div>
+                    <div class="eval-field">
+                        <label class="filter-label" for="diagContact">Contacto Principal</label>
+                        <input type="text" id="diagContact" class="search-input" placeholder="Nombre del contacto">
+                    </div>
+                    <div class="eval-field" style="grid-column:1/-1;">
+                        <label class="filter-label" for="diagDescription">Descripción del Negocio</label>
+                        <textarea id="diagDescription" class="editor-textarea" placeholder="Breve descripción del modelo de negocio, producto/servicio principal y estado actual de la empresa..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STEP 2: Asset Inventory -->
+            <div class="diag-card fade-in" id="diagStep2" style="margin-top:1.5rem;">
+                <div class="diag-card-header">
+                    <span class="diag-step-badge">Paso 2</span>
+                    <h3 class="diag-card-title">Inventario de Activos / Procesos</h3>
+                    <p style="font-size:.85rem;color:var(--text-secondary);margin-top:.25rem;">Lista los procesos, herramientas o actividades que la empresa ya tiene implementados.</p>
+                </div>
+                <div id="diagAssetList" class="diag-asset-list">
+                    <!-- Populated by JS -->
+                </div>
+                <button class="editor-list-add" id="diagAddAsset" style="margin-top:.75rem;">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+                    Agregar activo / proceso
+                </button>
+            </div>
+
+            <!-- STEP 3: Phase Progress -->
+            <div class="diag-card fade-in" id="diagStep3" style="margin-top:1.5rem;">
+                <div class="diag-card-header">
+                    <span class="diag-step-badge">Indicadores</span>
+                    <h3 class="diag-card-title">Cobertura por Fase 3X+</h3>
+                </div>
+                <div class="diag-progress-grid" id="diagProgressGrid">
+                    <div class="diag-progress-item">
+                        <div class="diag-progress-label">
+                            <span class="phase-badge explorar"><span class="chip-dot phase-explorar"></span>EXplorar+</span>
+                            <span class="diag-progress-pct" id="diagPctExplorar">0%</span>
+                        </div>
+                        <div class="diag-progress-bar"><div class="diag-progress-fill explorar" id="diagBarExplorar" style="width:0%"></div></div>
+                        <span class="diag-progress-detail" id="diagDetailExplorar">0 de 0 servicios</span>
+                    </div>
+                    <div class="diag-progress-item">
+                        <div class="diag-progress-label">
+                            <span class="phase-badge expandir"><span class="chip-dot phase-expandir"></span>EXpandir+</span>
+                            <span class="diag-progress-pct" id="diagPctExpandir">0%</span>
+                        </div>
+                        <div class="diag-progress-bar"><div class="diag-progress-fill expandir" id="diagBarExpandir" style="width:0%"></div></div>
+                        <span class="diag-progress-detail" id="diagDetailExpandir">0 de 0 servicios</span>
+                    </div>
+                    <div class="diag-progress-item">
+                        <div class="diag-progress-label">
+                            <span class="phase-badge excalar"><span class="chip-dot phase-excalar"></span>EXcalar+</span>
+                            <span class="diag-progress-pct" id="diagPctExcalar">0%</span>
+                        </div>
+                        <div class="diag-progress-bar"><div class="diag-progress-fill excalar" id="diagBarExcalar" style="width:0%"></div></div>
+                        <span class="diag-progress-detail" id="diagDetailExcalar">0 de 0 servicios</span>
+                    </div>
+                    <div class="diag-progress-item diag-progress-total">
+                        <div class="diag-progress-label">
+                            <span style="font-weight:700;color:var(--text-primary);">Cobertura Total</span>
+                            <span class="diag-progress-pct" id="diagPctTotal" style="color:var(--accent-light);font-size:1.25rem;">0%</span>
+                        </div>
+                        <div class="diag-progress-bar"><div class="diag-progress-fill total" id="diagBarTotal" style="width:0%"></div></div>
+                        <span class="diag-progress-detail" id="diagDetailTotal">0 de 29 servicios</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STEP 4: Service Checklist -->
+            <div class="diag-card fade-in" id="diagStep4" style="margin-top:1.5rem;">
+                <div class="diag-card-header" style="margin-bottom:1rem;">
+                    <span class="diag-step-badge">Paso 3</span>
+                    <h3 class="diag-card-title">Checklist de Servicios Start-Hub</h3>
+                    <p style="font-size:.85rem;color:var(--text-secondary);margin-top:.25rem;">Marca los servicios que la empresa ya posee o implementa. Agrega observaciones para cada uno.</p>
+                </div>
+                <div class="diag-checklist-filters" style="margin-bottom:1rem;">
+                    <div class="filter-chips">
+                        <button class="filter-chip active" data-diag-filter="all">Todos</button>
+                        <button class="filter-chip" data-diag-filter="EXplorar+"><span class="chip-dot phase-explorar"></span>EXplorar+</button>
+                        <button class="filter-chip" data-diag-filter="EXpandir+"><span class="chip-dot phase-expandir"></span>EXpandir+</button>
+                        <button class="filter-chip" data-diag-filter="EXcalar+"><span class="chip-dot phase-excalar"></span>EXcalar+</button>
+                        <button class="filter-chip" data-diag-filter="checked"><span style="color:var(--excalar);">&#10003;</span> Tiene</button>
+                        <button class="filter-chip" data-diag-filter="unchecked"><span style="color:var(--critica);">&#10007;</span> No tiene</button>
+                    </div>
+                </div>
+                <div id="diagChecklist" class="diag-checklist">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- Export -->
+            <div class="diag-card fade-in" style="margin-top:1.5rem;">
+                <div class="diag-card-header">
+                    <span class="diag-step-badge">Exportar</span>
+                    <h3 class="diag-card-title">Generar Reporte</h3>
+                </div>
+                <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:.5rem;">
+                    <button id="diagExportJson" class="btn btn-primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Exportar Diagnóstico JSON
+                    </button>
+                    <button id="diagExportCsv" class="btn btn-secondary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg>
+                        Exportar Reporte CSV
+                    </button>
+                </div>
+                <p id="diagExportMsg" class="eval-msg" style="display:none;"></p>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="section-container">
@@ -499,5 +859,6 @@
     </footer>
 
     <script src="app.js"></script>
+    <script src="evaluate.js"></script>
 </body>
 </html>
