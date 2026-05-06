@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "editor": "Camilo Gomez",
+    "role": "Diseño y Branding estratégico",
+    "exportedAt": "2026-05-02T19:14:13.781Z",
+    "type": "blueprint_edit",
+    "version": "1.0"
+  },
+  "services": [
+    {
+      "id": "PR-01",
+      "title": "Estrategia de Comunicación Digital",
+      "phase": "EXplorar+",
+      "area": "Planeación Estratégica",
+      "priority": "Alta",
+      "desc": "Definición del marco lógico y operativo para la presencia digital de la startup, alineando los objetivos de negocio con la ejecución en canales.",
+      "components": [
+        "Manual de tono y voz de marca",
+        "Matrices de mensajes clave por segmento",
+        "Matriz de selección de canales",
+        "Definición de Buyer Persona",
+        "Diagnostico temprano de oportunidades"
+      ],
+      "justification": "Por que transforma el gasto aleatorio en una inversión con propósito y construye una identidad coherente que facilita atraer capital y clientes.",
+      "kpis": [
+        "Nivel de alineación de mensajes en canales",
+        "Incremento en la tasa de engagement orgánico inicial",
+        "Costo de Adquisición de Cliente (CAC) proyectado"
+      ]
+    },
+    {
+      "id": "PR-02",
+      "title": "Gestión de Redes Sociales",
+      "phase": "EXpandir+",
+      "area": "Operaciones Digitales",
+      "priority": "Media-Alta",
+      "desc": "Ejecución táctica y operativa de la presencia de la marca en plataformas sociales para mantener visibilidad constante.",
+      "components": [
+        "Calendario editorial mensual",
+        "Producción de piezas gráficas y video",
+        "Protocolos de publicación y monitoreo"
+      ],
+      "justification": "",
+      "kpis": [
+        "Crecimiento de la audiencia (Followers)",
+        "Alcance total de las publicaciones",
+        "Frecuencia de publicación"
+      ]
+    },
+    {
+      "id": "PR-03",
+      "title": "Narrativa de Marca y Storytelling",
+      "phase": "EXplorar+",
+      "area": "Branding y Relaciones",
+      "priority": "Alta",
+      "desc": "Estructuración del relato corporativo para optimizar la comunicación de la propuesta de valor ante stakeholders críticos.",
+      "components": [
+        "Estructura del Elevator Pitch",
+        "Documento de narrativa transmedia",
+        "Diferencial competitivo narrado"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tasa de retención de audiencia en presentaciones de Pitch",
+        "Menciones de mensajes clave en medios"
+      ]
+    },
+    {
+      "id": "PR-04",
+      "title": "Campañas de Lanzamiento",
+      "phase": "EXpandir+",
+      "area": "Marketing de Producto",
+      "priority": "Crítica",
+      "desc": "Planificación y ejecución de acciones de comunicación de alto impacto orientadas a la validación de mercado o introducción de nuevos productos.",
+      "components": [
+        "Plan de campaña (Pre-launch, Launch, Post-launch)",
+        "Set de activos publicitarios",
+        "Protocolo de medición de impacto"
+      ],
+      "justification": "",
+      "kpis": [
+        "Número de Leads/Registros generados",
+        "Costo de Adquisición de Cliente (CAC) proyectado"
+      ]
+    },
+    {
+      "id": "PR-05",
+      "title": "Construcción de Comunidad Online",
+      "phase": "EXcalar+",
+      "area": "Fidelización y CRM",
+      "priority": "Media",
+      "desc": "Implementación de mecanismos de interacción bidireccional para fomentar la lealtad y el crecimiento orgánico.",
+      "components": [
+        "Canales de comunicación directa (Newsletters, grupos)",
+        "Eventos digitales o webinars",
+        "Estrategia de moderación"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tasa de apertura en newsletters",
+        "Nivel de participación activa en grupos",
+        "Tasa de recomendación (NPS)"
+      ]
+    },
+    {
+      "id": "EC-01",
+      "title": "Dirección Estratégica Digital",
+      "phase": "EXplorar+",
+      "area": "Estrategia Corporativa",
+      "priority": "Alta",
+      "desc": "Marco de planificación y gobernanza para la ejecución de iniciativas digitales omnicanal y el escalamiento del modelo de negocio.",
+      "components": [
+        "Plan digital 360°",
+        "Funnels de conversión",
+        "Estrategia omnicanal",
+        "Roadmap de escalamiento"
+      ],
+      "justification": "",
+      "kpis": [
+        "Costo de Adquisición de Cliente (CAC)",
+        "ROAS",
+        "Valor de Vida del Cliente (LTV)"
+      ]
+    },
+    {
+      "id": "EC-02",
+      "title": "Growth & Performance",
+      "phase": "EXpandir+",
+      "area": "Marketing de Resultados",
+      "priority": "Alta",
+      "desc": "Ejecución de tácticas digitales orientadas a la captación de tráfico calificado y la optimización de la tasa de conversión.",
+      "components": [
+        "Gestión de SEM y SEO",
+        "CRO mediante A/B Testing",
+        "Automatización de marketing",
+        "Estrategias Go-To-Market"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tasa de conversión en landings y PDPs",
+        "Volumen de tráfico orgánico y pagado",
+        "Eficiencia de pauta en marketplaces"
+      ]
+    },
+    {
+      "id": "EC-03",
+      "title": "Data Analytics & Business Intelligence",
+      "phase": "EXpandir+",
+      "area": "Inteligencia de Negocios",
+      "priority": "Media-Alta",
+      "desc": "Infraestructura de medición y análisis avanzado de datos para la optimización de la rentabilidad y el comportamiento del usuario.",
+      "components": [
+        "Dashboards ejecutivos",
+        "Modelado de atribución",
+        "Análisis de cohortes y churn",
+        "Análisis de unit economics"
+      ],
+      "justification": "",
+      "kpis": [
+        "Precisión en forecasting de demanda",
+        "Margen de contribución",
+        "Performance de catálogo"
+      ]
+    },
+    {
+      "id": "EC-04",
+      "title": "Inteligencia Artificial Aplicada",
+      "phase": "EXcalar+",
+      "area": "Innovación Tecnológica",
+      "priority": "Media",
+      "desc": "Integración de modelos predictivos y procesos automatizados mediante IA para mejorar la experiencia de usuario y la eficiencia operativa.",
+      "components": [
+        "Modelos predictivos de lead scoring",
+        "Chatbots inteligentes para ventas",
+        "Recomendadores dinámicos",
+        "Precios dinámicos"
+      ],
+      "justification": "",
+      "kpis": [
+        "Reducción en tasa de abandono",
+        "Precisión en forecasting de inventario",
+        "Incremento en conversión por personalización"
+      ]
+    },
+    {
+      "id": "EC-05",
+      "title": "Operación de Ecommerce",
+      "phase": "EXpandir+",
+      "area": "Gestión Operativa",
+      "priority": "Crítica",
+      "desc": "Administración integral de la cadena de suministro digital, plataformas de venta y procesos de cumplimiento.",
+      "components": [
+        "Gestión de plataformas (Shopify, VTEX)",
+        "Sincronización multicanal de inventario",
+        "Coordinación logística",
+        "Pasarelas de pago y OMS"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tiempos de entrega y tasa de error",
+        "NPS operativo",
+        "Optimización de costos logísticos"
+      ]
+    },
+    {
+      "id": "EC-06",
+      "title": "Estrategia Comercial Ecommerce",
+      "phase": "EXcalar+",
+      "area": "Revenue Management",
+      "priority": "Alta",
+      "desc": "Diseño de planes de ingresos y tácticas comerciales para maximizar la rentabilidad del catálogo digital.",
+      "components": [
+        "Calendario comercial (Cyber Days, Black Friday)",
+        "Bundling, cross-selling y upselling",
+        "Estrategia de surtido",
+        "Programas de membresía"
+      ],
+      "justification": "",
+      "kpis": [
+        "Revenue Growth",
+        "Customer Lifetime Value (LTV)",
+        "Margen de rentabilidad comercial"
+      ]
+    },
+    {
+      "id": "ARQ-01",
+      "title": "Desarrollo de Marcas",
+      "phase": "EXplorar+",
+      "area": "Identidad Visual",
+      "priority": "Alta",
+      "desc": "Creación de sistemas visuales integrales diseñados para proporcionar un lenguaje visual escalable y coherente en múltiples plataformas.",
+      "components": [
+        "Sistema de lenguaje visual adaptable",
+        "Estándares de calidad para ejecución rápida",
+        "Estructura anti-rebrandings prematuros"
+      ],
+      "justification": "Este servicio es el que le da forma y profesionalismo a la startup, no se trata solo de un logo bonito, sino de crear un sistema visual que funcione en todo lado (desde una app hasta una presentación). Es vital porque permite que la empresa se vea sólida desde el inicio, ahorrando dinero al evitar tener que rediseñar todo a los pocos meses por falta de coherencia.",
+      "kpis": [
+        "Reducción de costos por estandarización visual",
+        "Longevidad de marca (evitar rebranding 6 meses)",
+        "Consistencia de marca (Brand Consistency Score)"
+      ]
+    },
+    {
+      "id": "ARQ-02",
+      "title": "Branding Estratégico",
+      "phase": "EXplorar+",
+      "area": "Estrategia de Marca",
+      "priority": "Alta",
+      "desc": "Definición del ADN competitivo y comportamiento de marca para establecer diferenciación en mercados saturados.",
+      "components": [
+        "Definición de narrativa y tono",
+        "Estructuración del comportamiento visual y estratégico"
+      ],
+      "justification": "Es fundamental para la aceleradora porque ayuda a que las empresas nazcan con un valor percibido alto, permitiéndoles cobrar lo que valen y verse lo suficientemente profesionales como para atraer inversionistas. Este servicio es lo que hace que una startup no sea 'una más del montón', aquí definimos la personalidad y el ADN de la empresa para que la gente entienda por qué somos diferentes y mejores que la competencia",
+      "kpis": [
+        "Capacidad de atracción de Venture Capital",
+        "Justificación de Premium pricing desde lanzamiento",
+        "Nivel de Diferenciación Percibida",
+        "Customer Loyalty (Tasa de recomendación)"
+      ]
+    },
+    {
+      "id": "ARQ-03",
+      "title": "Web Design",
+      "phase": "EXpandir+",
+      "area": "Arquitectura Digital",
+      "priority": "Alta",
+      "desc": "Diseño de interfaces de usuario optimizadas para la conversión, enfocadas en guiar al usuario hacia acciones de compra o registro.",
+      "components": [
+        "Optimización de UX",
+        "Flujos de navegación orientados a conversión"
+      ],
+      "justification": "Este servicio es la 'tienda' o vitrina principal de la startup en el mundo digital. No buscamos solo que la web se vea linda, sino que funcione como un vendedor que nunca duerme. Es fundamental porque de nada sirve atraer gente con publicidad si cuando llegan a la página no saben qué hacer, aquí nos aseguramos de que el camino del usuario sea tan claro que terminar comprando o registrándose sea el paso natural.",
+      "kpis": [
+        "ROI en pauta publicitaria",
+        "Tasa de conversión de tráfico a registros/ventas",
+        "Velocidad de carga y rendimiento visual",
+        "Tasa de abandono en formularios/carrito",
+        "Tasa de rebote (Bounce Rate)"
+      ]
+    },
+    {
+      "id": "ARQ-04",
+      "title": "High-Conversion UX/UI Systems",
+      "phase": "EXpandir+",
+      "area": "Diseño de Producto",
+      "priority": "Crítica",
+      "desc": "Desarrollo de ecosistemas de marca diseñados específicamente para el posicionamiento premium y el levantamiento de capital.",
+      "components": [
+        "Arquitectura web de alta conversión",
+        "Herramientas para validación de mercado"
+      ],
+      "justification": "Es clave para la aceleradora porque prepara a las empresas para levantar capital con una imagen de autoridad, demostrando que su tecnología no solo funciona, sino que esta a otro nivel, para que, cuando un inversionista vea el producto, entienda de inmediato que vale la pena poner su dinero ahí.",
+      "kpis": [
+        "Valor intangible generado desde el día cero",
+        "Tasa de conversión del portafolio de la aceleradora",
+        "Percepción de Valor de Marca (Brand Premium Score)",
+        "User Task Completion Rate"
+      ]
+    },
+    {
+      "id": "ARQ-05",
+      "title": "Brand Engineering & Equity",
+      "phase": "EXcalar+",
+      "area": "Gestión de Activos",
+      "priority": "Crítica",
+      "desc": "Transformación del diseño gráfico tradicional en un activo financiero que facilita la escalabilidad y validación de la startup.",
+      "components": [
+        "Herramientas de validación y escalabilidad",
+        "Ingeniería estratégica de marca"
+      ],
+      "justification": "Es vital para la aceleradora porque le da a las empresas una base técnica y estratégica tan fuerte que pueden validar su modelo de negocio mucho más rápido y con mayor autoridad ante cualquier inversionista, es el que convierte el diseño en dinero real para la empresa, hace que la startup valga más en el mercado y sea más fácil de escalar.",
+      "kpis": [
+        "Incremento del valor de mercado de la startup",
+        "Precios competitivos basados en valor intangible",
+        "Velocidad de Validación de Mercado",
+        "Eficiencia en el Costo de Escalamiento"
+      ]
+    },
+    {
+      "id": "ARQ-06",
+      "title": "Design Due Diligence",
+      "phase": "EXplorar+",
+      "area": "Auditoría y Riesgos",
+      "priority": "Media-Alta",
+      "desc": "Servicio de consultoría técnica que audita la viabilidad estética y comunicativa de proyectos prospectos para la aceleradora.",
+      "components": [
+        "Filtro de calidad visual y comunicativa",
+        "Análisis de escalabilidad global",
+        "Curaduría de proyectos para inversión"
+      ],
+      "justification": "Este servicio funciona como un 'filtro de seguridad' para la aceleradora antes de comprometer recursos. Básicamente, auditamos la imagen y la comunicación de los proyectos que quieren entrar para saber si realmente tienen potencial de escalar o si su marca los va a frenar en el camino",
+      "kpis": [
+        "Ahorro financiero por prevención de inversión",
+        "Horas de desarrollo recuperadas",
+        "Índice de Viabilidad Fonética y Registrabilidad",
+        "Reducción del riesgo reputacional"
+      ]
+    },
+    {
+      "id": "IE-01",
+      "title": "Consultoría y Asistencia Técnica Inicial",
+      "phase": "EXplorar+",
+      "area": "Comercio Exterior",
+      "priority": "Alta",
+      "desc": "Evaluación técnica preliminar para determinar la viabilidad regulatoria y financiera de una operación de comercio exterior.",
+      "components": [
+        "Clasificación arancelaria técnica",
+        "Auditoría de restricciones legales",
+        "Revisión de normas técnicas",
+        "Proyección de costeo"
+      ],
+      "justification": "",
+      "kpis": [
+        "Precisión en costeo proyectado vs real",
+        "Tasa de cumplimiento documental en pre-inspección"
+      ]
+    },
+    {
+      "id": "IE-02",
+      "title": "Gestión de Resultados y Operaciones",
+      "phase": "EXpandir+",
+      "area": "Comercio Exterior",
+      "priority": "Crítica",
+      "desc": "Ejecución y supervisión de la cadena de suministro internacional, desde la validación del origen hasta el ingreso legal al país.",
+      "components": [
+        "Sourcing y validación de proveedores en China",
+        "Gestión documental aduanera",
+        "Coordinación logística multimodal",
+        "Supervisión de nacionalización"
+      ],
+      "justification": "",
+      "kpis": [
+        "Lead Time de importación",
+        "Reducción de costos logísticos por Incoterm",
+        "Confiabilidad de proveedores"
+      ]
+    },
+    {
+      "id": "IT-01",
+      "title": "Marca Digital y Landing Page",
+      "phase": "EXpandir+",
+      "area": "Crecimiento y Conversión",
+      "priority": "Alta",
+      "desc": "Implementación de activos web responsivos para la captación de leads y validación comercial de ofertas digitales.",
+      "components": [
+        "Diseño de interfaz responsiva",
+        "Configuración de hosting y dominio",
+        "Píxeles de seguimiento",
+        "Formularios integrados"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tasa de conversión visitantes a leads",
+        "Tiempo de carga (LCP)"
+      ]
+    },
+    {
+      "id": "IT-02",
+      "title": "Chatbot de Ventas (Fase Beta)",
+      "phase": "EXpandir+",
+      "area": "Crecimiento y Conversión",
+      "priority": "Alta",
+      "desc": "Sistema de automatización para atención primaria y calificación de prospectos vía WhatsApp y Web.",
+      "components": [
+        "Árbol de decisión lógico",
+        "Módulo de captura de datos",
+        "Protocolo de escalamiento a agente humano"
+      ],
+      "justification": "",
+      "kpis": [
+        "% de leads filtrados sin intervención humana",
+        "Tiempo medio de respuesta inicial"
+      ]
+    },
+    {
+      "id": "IT-03",
+      "title": "Chatbot de Asesoría Avanzada",
+      "phase": "EXcalar+",
+      "area": "Crecimiento y Conversión",
+      "priority": "Media-Alta",
+      "desc": "Implementación de un LLM especializado en cierre de ventas mediante persuasión basada en datos técnicos y comparativos.",
+      "components": [
+        "Integración con base de datos de productos",
+        "Matriz comparativa de competidores",
+        "Modelo NLP"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tasa de cierre de ventas asistida por IA",
+        "Precisión de información vs matriz de competencia"
+      ]
+    },
+    {
+      "id": "IT-04",
+      "title": "Automatización 360°",
+      "phase": "EXpandir+",
+      "area": "Eficiencia Operativa",
+      "priority": "Crítica",
+      "desc": "Integración técnica de flujos de trabajo para eliminar carga operativa manual y error humano en procesos administrativos.",
+      "components": [
+        "Conexión API entre CRM y contable",
+        "Integración plataformas publicitarias",
+        "Sincronización de flujos contables"
+      ],
+      "justification": "",
+      "kpis": [
+        "Reducción de horas hombre en tareas repetitivas",
+        "Disminución de errores en registros"
+      ]
+    },
+    {
+      "id": "IT-05",
+      "title": "Carga Masiva de Productos",
+      "phase": "EXpandir+",
+      "area": "Eficiencia Operativa",
+      "priority": "Alta",
+      "desc": "Herramienta de sincronización masiva para la actualización de catálogos entre almacén físico y tienda virtual.",
+      "components": [
+        "Script para procesamiento CSV/Excel",
+        "Sincronización bidireccional de fotos, precios y stock"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tiempo de procesamiento de carga",
+        "Índice de discrepancia de stock"
+      ]
+    },
+    {
+      "id": "IT-06",
+      "title": "Infraestructura para Legalización",
+      "phase": "EXplorar+",
+      "area": "Eficiencia Operativa",
+      "priority": "Media-Alta",
+      "desc": "Ecosistema digital para agilizar la formalización técnica y financiera de nuevas unidades de negocio.",
+      "components": [
+        "Repositorio documental centralizado",
+        "Alertas de cumplimiento legal/tributario",
+        "Configuración de pasarelas de pago"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tiempo promedio de habilitación técnica",
+        "Cumplimiento de hitos legales en fechas programadas"
+      ]
+    },
+    {
+      "id": "IT-07",
+      "title": "Data Analytics para Ventas",
+      "phase": "EXpandir+",
+      "area": "Inteligencia de Negocios",
+      "priority": "Alta",
+      "desc": "Centralización y visualización de indicadores críticos de marketing y ventas para decisiones basada en evidencia.",
+      "components": [
+        "Dashboards de visualización ejecutiva",
+        "ETL de plataformas de marketing y ventas"
+      ],
+      "justification": "",
+      "kpis": [
+        "Disponibilidad de datos en tiempo real",
+        "Incremento en precisión de pronósticos"
+      ]
+    },
+    {
+      "id": "IT-08",
+      "title": "Web Scraping de Competencia",
+      "phase": "EXcalar+",
+      "area": "Inteligencia de Negocios",
+      "priority": "Media",
+      "desc": "Sistema automatizado de extracción de datos de competidores para ajustar estrategias de precios dinámicos.",
+      "components": [
+        "Scripts de extracción automatizada",
+        "Datos en formatos estructurados (BD o CSV)"
+      ],
+      "justification": "",
+      "kpis": [
+        "Frecuencia de actualización de matriz de precios",
+        "Margen de competitividad de precios"
+      ]
+    },
+    {
+      "id": "IT-09",
+      "title": "Chatbot de Conocimiento (RAG)",
+      "phase": "EXcalar+",
+      "area": "Inteligencia de Negocios",
+      "priority": "Media",
+      "desc": "Implementación de IA basada en RAG para soporte interno en procesos de RRHH y operativos.",
+      "components": [
+        "Base de datos vectorial con documentos empresariales",
+        "Restricción de respuestas a información oficial"
+      ],
+      "justification": "",
+      "kpis": [
+        "Reducción de consultas manuales a RRHH y soporte técnico"
+      ]
+    },
+    {
+      "id": "IT-10",
+      "title": "Tracking Hub (Seguimiento)",
+      "phase": "EXpandir+",
+      "area": "Logística e Importaciones",
+      "priority": "Crítica",
+      "desc": "Interfaz de transparencia logística que permite el rastreo en tiempo real de mercancías desde origen hasta destino final.",
+      "components": [
+        "Conexión con APIs de aduanas y transportistas",
+        "Interfaz de rastreo por guía",
+        "Visualización de estados en tiempo real"
+      ],
+      "justification": "",
+      "kpis": [
+        "Reducción de tickets de soporte por estado de pedido",
+        "NPS logístico"
+      ]
+    }
+  ]
+}

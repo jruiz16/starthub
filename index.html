@@ -47,8 +47,8 @@
                 <a href="#dashboard" class="nav-link">Dashboard</a>
                 <a href="#evaluate-module" class="nav-link" style="display:none;">Mi Evaluación</a>
                 <a href="#consolidate-module" class="nav-link" style="display:none;">Consolidar</a>
-                <a href="#blueprint-editor" class="nav-link">Editor</a>
-                <a href="#diagnostico" class="nav-link">Diagnóstico</a>
+                <a href="#blueprint-editor" class="nav-link" style="display:none;">Editor</a>
+                <a href="#diagnostico" class="nav-link" style="display:none;">Diagnóstico</a>
             </div>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
@@ -463,6 +463,13 @@
                     </h4>
                     <p id="modalDescription"></p>
                 </div>
+                <div class="modal-section" id="modalJustificationSection">
+                    <h4 class="modal-section-title">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                        Justificación Estratégica
+                    </h4>
+                    <p id="modalJustification" class="modal-justification"></p>
+                </div>
                 <div class="modal-section">
                     <h4 class="modal-section-title">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
@@ -639,7 +646,7 @@
     </div>
 
     <!-- ===== MODULE 3: BLUEPRINT EDITOR ===== -->
-    <section class="editor-section" id="blueprint-editor">
+    <section class="editor-section" id="blueprint-editor" style="display:none;">
         <div class="section-container">
             <div class="section-header fade-in">
                 <span class="section-tag">Trabajo Colaborativo</span>
@@ -689,7 +696,7 @@
     </section>
 
     <!-- ===== MODULE 4: DIAGNÓSTICO DE EMPRESA ===== -->
-    <section class="diag-section" id="diagnostico">
+    <section class="diag-section" id="diagnostico" style="display:none;">
         <div class="section-container">
             <div class="section-header fade-in">
                 <span class="section-tag">Evaluación Estratégica</span>

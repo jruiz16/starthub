@@ -274,6 +274,9 @@ function openModal(id){
   $("#modalArea").textContent=s.area;
   const mp=$("#modalPriority");mp.textContent=s.priority;mp.className="meta-value priority-badge "+getPriorityClass(s.priority);
   $("#modalDescription").textContent=s.desc;
+  const justEl=$("#modalJustification"),justSection=$("#modalJustificationSection");
+  if(s.justification&&s.justification.trim()){justEl.textContent=s.justification;justSection.style.display="";}
+  else{justEl.textContent="";justSection.style.display="none";}
   $("#modalKpis").innerHTML=s.kpis.map(k=>`<li>${k}</li>`).join("");
   $("#modalComponents").innerHTML=s.components.map(c=>`<li>${c}</li>`).join("");
   modalOverlay.classList.add("open");document.body.style.overflow="hidden";

@@ -1,0 +1,689 @@
+{
+  "meta": {
+    "editor": "Sebastian Palacio",
+    "role": "Growth Marketing",
+    "exportedAt": "2026-05-05T22:14:05.144Z",
+    "type": "blueprint_edit",
+    "version": "1.0"
+  },
+  "services": [
+    {
+      "id": "PR-01",
+      "title": "Estrategia de Comunicación Digital",
+      "phase": "EXplorar+",
+      "area": "Marketing de Producto",
+      "priority": "Alta",
+      "desc": "Definición del marco lógico y operativo para la presencia digital de la startup, alineando los objetivos de negocio con la ejecución en canales.",
+      "components": [
+        "Manual de tono y voz de marca",
+        "Matrices de mensajes clave por segmento",
+        "Matriz de selección de canales",
+        "Definición de Buyer Persona",
+        "Definición estratégica: establecer objetivos (posicionamiento, performance y viralidad), público objetivo y propuesta de valor.( Explorar)",
+        "Creación de contenido: desarrollar piezas atractivas y adaptadas a cada canal con enfoque en engagement y compartibilidad.( Expandir)",
+        "Ejecución y distribución: publicar contenidos y activar campañas pagas con segmentación adecuada. ( Expandir)",
+        "Medición de KPIs: monitorear métricas clave como alcance, engagement, CTR, conversiones y ROI.(Expandir)",
+        "Análisis de resultados: interpretar datos para identificar aprendizajes, patrones y oportunidades de mejora.( Expandir)",
+        "A/B testing y optimización: probar diferentes variables, medir resultados y escalar lo que mejor funciona.( Expansión)",
+        "Optimización continua: ajustar la estrategia y redistribuir recursos para maximizar resultados.( Expansión)"
+      ],
+      "justification": "La justificación estratégica de una estrategia de comunicación digital es fundamental porque permite alinear todas las acciones de contenido, canales y campañas con los objetivos del negocio, asegurando coherencia en el mensaje y mayor impacto en la audiencia; además, facilita la toma de decisiones basada en datos, optimiza la inversión al priorizar tácticas de alto rendimiento y potencia el posicionamiento de marca, el performance y la viralidad, incrementando así la eficiencia, el alcance y el retorno de la inversión en entornos digitales altamente competitivos.",
+      "kpis": [
+        "Nivel de alineación de mensajes en canales",
+        "Incremento en la tasa de engagement orgánico inicial",
+        "Alcance e impresiones: nivel de visibilidad de la marca.",
+        "Engagement rate: interacción de la audiencia con el contenido.",
+        "CTR (Click Through Rate): efectividad para generar clics.",
+        "Tasa de conversión: cumplimiento de objetivos (ventas, leads, registros).",
+        "Costo por adquisición (CPA): eficiencia de inversión.",
+        "ROI (Retorno de inversión): rentabilidad de la estrategia.",
+        "Tráfico web: volumen de visitas generadas.",
+        "Tasa de rebote y tiempo en página: calidad del tráfico.",
+        "Shareability / tasa de compartidos: potencial de viralidad.",
+        "Resultados de A/B testing: identificación de las mejores variantes para optimización continua."
+      ]
+    },
+    {
+      "id": "PR-02",
+      "title": "Gestión de Redes Sociales",
+      "phase": "EXpandir+",
+      "area": "Operaciones Digitales",
+      "priority": "Alta",
+      "desc": "Ejecución táctica y operativa de la presencia de la marca en plataformas sociales para mantener visibilidad constante.",
+      "components": [
+        "Calendario editorial mensual",
+        "Producción de piezas gráficas y video",
+        "Protocolos de publicación y monitoreo"
+      ],
+      "justification": "",
+      "kpis": [
+        "Crecimiento de la audiencia (Followers)",
+        "Alcance total de las publicaciones",
+        "Frecuencia de publicación"
+      ]
+    },
+    {
+      "id": "PR-03",
+      "title": "Narrativa de Marca y Storytelling",
+      "phase": "EXplorar+",
+      "area": "Branding y Relaciones",
+      "priority": "Alta",
+      "desc": "Estructuración del relato corporativo para optimizar la comunicación de la propuesta de valor ante stakeholders críticos.",
+      "components": [
+        "Estructura del Elevator Pitch",
+        "Documento de narrativa transmedia",
+        "Diferencial competitivo narrado"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tasa de retención de audiencia en presentaciones de Pitch",
+        "Menciones de mensajes clave en medios"
+      ]
+    },
+    {
+      "id": "PR-04",
+      "title": "Campañas de Lanzamiento",
+      "phase": "EXpandir+",
+      "area": "Marketing de Producto",
+      "priority": "Crítica",
+      "desc": "Planificación y ejecución de acciones de comunicación de alto impacto orientadas a la validación de mercado o introducción de nuevos productos.",
+      "components": [
+        "Plan de campaña (Pre-launch, Launch, Post-launch)",
+        "Set de activos publicitarios",
+        "Protocolo de medición de impacto",
+        "Definición estratégica del lanzamiento: objetivos, público objetivo y propuesta de valor.( Explorar)",
+        "Plan de comunicación: selección de canales, mensajes clave y calendario.( Expandir)",
+        "Desarrollo creativo: creación de piezas (ads, videos, copies, landing pages).(Expandir)",
+        "Pre-lanzamiento (expectativa): teasers, generación de expectativa y captación de leads.( Expandir)",
+        "Lanzamiento (go live): activación de campañas pagas y contenido orgánico.( Expandir)",
+        "Amplificación: influencers, pauta, remarketing y distribución multicanal.( Expansión)",
+        "Medición y monitoreo: seguimiento de KPIs en tiempo real.( Expandir)",
+        "Optimización: ajustes basados en datos y pruebas A/B. ( Excalar)"
+      ],
+      "justification": "Las campañas de lanzamiento son fundamentales porque permiten introducir un producto, servicio o marca al mercado de manera estratégica, generando visibilidad, interés y demanda desde el primer momento; además, aseguran una correcta alineación entre el mensaje, la audiencia y los canales, maximizando el impacto inicial, acelerando la adquisición de clientes y validando la propuesta de valor mediante datos, lo que contribuye a optimizar la inversión, mejorar el posicionamiento y aumentar las probabilidades de éxito en el mercado.",
+      "kpis": [
+        "Número de Leads/Registros generados",
+        "Costo de Adquisición de Cliente (CAC) proyectado",
+        "Alcance e impresiones: visibilidad del lanzamiento.",
+        "Engagement rate: nivel de interés generado.",
+        "CTR (Click Through Rate): efectividad de los anuncios.",
+        "Tasa de conversión: usuarios que realizan la acción objetivo (compra, registro).",
+        "Costo por adquisición (CPA): costo de captar clientes o leads.",
+        "ROI (Retorno de inversión): rentabilidad de la campaña.",
+        "Tráfico web / landing: volumen de visitas durante el lanzamiento.",
+        "Leads generados: base de datos captada en pre y lanzamiento.",
+        "Ventas o revenue generado: impacto directo en negocio.",
+        "Resultados de A/B testing: optimización de creatividades, mensajes y audiencias."
+      ]
+    },
+    {
+      "id": "PR-05",
+      "title": "Construcción de Comunidad Online",
+      "phase": "EXpandir+",
+      "area": "Fidelización y CRM",
+      "priority": "Media",
+      "desc": "Implementación de mecanismos de interacción bidireccional para fomentar la lealtad y el crecimiento orgánico.",
+      "components": [
+        "Canales de comunicación directa (Newsletters, grupos)",
+        "Eventos digitales o webinars",
+        "Estrategia de moderación",
+        "Definición estratégica: objetivos de comunidad, público y propuesta de valor.( Expandir)",
+        "Selección de plataformas: redes sociales, foros o canales (según audiencia).( Expandir)",
+        "Creación de contenido: publicaciones que fomenten interacción, conversación y valor.( Expandir)",
+        "Gestión de la comunidad: respuesta a comentarios, mensajes y moderación activa.( Expandir)",
+        "Activación de dinámicas: concursos, encuestas, lives y participación de usuarios.( Expandir)",
+        "Colaboraciones: influencers, embajadores de marca y contenido generado por usuarios (UGC).( Expandir)",
+        "Monitoreo y escucha social: seguimiento de conversaciones, feedback y reputación.( Expandir)",
+        "Optimización continua: ajustes basados en métricas y pruebas A/B.( Excalar)"
+      ],
+      "justification": "La construcción de una comunidad online es clave porque permite crear relaciones sólidas y duraderas entre la marca y sus audiencias, fomentando la confianza, la lealtad y el engagement; además, transforma a los usuarios en promotores activos de la marca, amplificando el alcance de manera orgánica, generando insights valiosos a partir de la interacción directa y contribuyendo al posicionamiento, la diferenciación y el crecimiento sostenible del negocio en entornos digitales.",
+      "kpis": [
+        "Crecimiento de la comunidad: número de seguidores o miembros.",
+        "Engagement rate: interacción (likes, comentarios, compartidos).",
+        "Tasa de participación: nivel de actividad dentro de la comunidad.",
+        "Retención de usuarios: permanencia y recurrencia de la audiencia.",
+        "Contenido generado por usuarios (UGC): volumen y frecuencia.",
+        "Sentimiento de marca: percepción positiva, neutra o negativa.",
+        "Alcance orgánico: visibilidad sin pauta.",
+        "Tráfico desde redes/comunidad: visitas generadas hacia activos digitales.",
+        "Conversión desde comunidad: leads o ventas provenientes de la audiencia.",
+        "Resultados de A/B testing: optimización de contenidos y dinámicas de interacción."
+      ]
+    },
+    {
+      "id": "EC-01",
+      "title": "Dirección Estratégica Digital",
+      "phase": "EXplorar+",
+      "area": "Estrategia Corporativa",
+      "priority": "Alta",
+      "desc": "Marco de planificación y gobernanza para la ejecución de iniciativas digitales omnicanal y el escalamiento del modelo de negocio.",
+      "components": [
+        "Diseño del Plan Digital 360°: definición de objetivos, audiencias, canales y propuesta de valor integral. ( Explorar)",
+        "Estructuración de funnels de conversión: awareness, consideración y conversión con tácticas específicas por etapa( Expandir)",
+        "Implementación de estrategia omnicanal: integración coherente de todos los puntos de contacto (redes, web, pauta, CRM, email, puntos de venta fisicos).",
+        "Implementación de estrategia de comercio unificado ( Expansión)",
+        "Desarrollo de roadmap de escalamiento: fases de crecimiento, inversión progresiva y expansión de canales.( Expandir)",
+        "Ejecución y coordinación de campañas y acciones digitales.( Expandir)",
+        "Medición y análisis de performance en cada etapa del funnel.( Expandir)",
+        "Optimización continua y A/B testing para mejorar resultados.( Excalar)"
+      ],
+      "justification": "La dirección estratégica digital es clave porque permite estructurar un ecosistema integral que conecta todas las acciones digitales bajo un plan 360°, asegurando coherencia en la comunicación y maximizando el impacto en cada etapa del funnel de conversión; además, mediante una estrategia omnicanal, se optimiza la experiencia del usuario en todos los puntos de contacto, mientras que un roadmap de escalamiento permite crecer de manera ordenada y sostenible, apoyado en datos, análisis y pruebas A/B, lo que se traduce en mayor eficiencia, mejor toma de decisiones y un incremento significativo en el rendimiento y la rentabilidad del negocio.",
+      "kpis": [
+        "Costo de Adquisición de Cliente (CAC)",
+        "ROAS",
+        "Valor de Vida del Cliente (LTV)",
+        "ROI (Retorno de inversión): rentabilidad global del ecosistema digital.",
+        "Tasa de conversión por funnel: desempeño en cada etapa (awareness, consideración, conversión).",
+        "Costo por adquisición (CPA): eficiencia en captación de clientes.",
+        "Customer Lifetime Value (CLV): valor del cliente a largo plazo.",
+        "Tráfico omnicanal: volumen y distribución de usuarios por canal.",
+        "Engagement rate: interacción en los distintos puntos de contacto.",
+        "Retención y recurrencia: fidelización de usuarios/clientes.",
+        "CAC vs LTV ratio: sostenibilidad del modelo de adquisición.",
+        "Incremento de ingresos digitales: crecimiento del negocio.",
+        "Resultados de A/B testing: optimización y mejora continua."
+      ]
+    },
+    {
+      "id": "EC-02",
+      "title": "Growth & Performance",
+      "phase": "EXpandir+",
+      "area": "Marketing de Resultados",
+      "priority": "Alta",
+      "desc": "Ejecución de tácticas digitales orientadas a la captación de tráfico calificado y la optimización de la tasa de conversión.",
+      "components": [
+        "Definición de objetivos de crecimiento y performance (ventas, CAC, LTV, ROI).( Expandir)",
+        "Análisis de datos y diagnóstico inicial (audiencias, canales, competencia).( Explorar)",
+        "Diseño de funnels de conversión optimizados por etapa.( Expandir)",
+        "Gestión de SEM y SEO: captación de tráfico pago y orgánico.( Expandir)",
+        "Implementación de CRO mediante A/B testing: optimización de landings, UX, copies y creatividades.( Expandir)",
+        "Automatización de marketing: flujos de email, remarketing, lead nurturing y CRM.( Expandir)",
+        "Estrategias Go-To-Market (GTM): lanzamiento y posicionamiento de productos/servicios.( Expandir)",
+        "Ejecución de campañas de performance (ads, social, display, afiliados).( Expandir)",
+        "Medición, análisis de datos y optimización continua.( Expandir)",
+        "Escalamiento de campañas y canales de alto rendimiento.( Excalar)"
+      ],
+      "justification": "El desarrollo de un Plan Growth & Performance es clave porque integra de manera estratégica la adquisición, conversión y retención de usuarios a través de un enfoque basado en datos, donde tácticas como SEM y SEO potencian la captación de tráfico cualificado, el CRO mediante A/B testing maximiza la conversión, la automatización de marketing mejora la eficiencia y personalización de la comunicación, y las estrategias Go-To-Market aseguran lanzamientos efectivos; todo esto permite optimizar la inversión, acelerar el crecimiento y escalar el negocio de forma sostenible, con una mejora continua respaldada por métricas y análisis.",
+      "kpis": [
+        "CAC (Costo de adquisición de cliente): eficiencia en captación.",
+        "LTV (Customer Lifetime Value): valor generado por cliente.",
+        "Ratio LTV/CAC",
+        "Tasa de conversión (CRO)",
+        "CTR (Click Through Rate)",
+        "CPA (Costo por adquisición)",
+        "ROAS / ROI",
+        "Tráfico orgánico (SEO)",
+        "Quality Score y CPC (SEM)",
+        "Tasa de apertura y conversión (automatización/email)",
+        "Churn rate y retención",
+        "Resultados de A/B testing"
+      ]
+    },
+    {
+      "id": "EC-03",
+      "title": "Data Analytics & Business Intelligence",
+      "phase": "EXpandir+",
+      "area": "Inteligencia de Negocios",
+      "priority": "Media-Alta",
+      "desc": "Infraestructura de medición y análisis avanzado de datos para la optimización de la rentabilidad y el comportamiento del usuario.",
+      "components": [
+        "Definición de objetivos y KPIs alineados al negocio.( Expandir)",
+        "Integración y recolección de datos (web, CRM, campañas, plataformas digitales).( Expandir)",
+        "Implementación de herramientas de analítica (tracking, dashboards, data visualization).(Expandir)",
+        "Limpieza y transformación de datos (ETL) para asegurar calidad y consistencia.(Expandir)",
+        "Análisis de datos e identificación de insights accionables.(Expandir)",
+        "Desarrollo de dashboards y reportes para toma de decisiones.(Expandir)",
+        "Segmentación de audiencias y análisis de comportamiento.(Expandir)",
+        "Predicción y modelado (forecasting) para anticipar resultados.(Excalar)",
+        "Monitoreo continuo y optimización basada en datos.(Excalar)"
+      ],
+      "justification": "El Data Analytics & Business Intelligence es fundamental porque permite transformar grandes volúmenes de datos en información estratégica que impulsa la toma de decisiones informadas, reduce la incertidumbre y mejora el rendimiento del negocio; al centralizar, analizar y visualizar datos de múltiples fuentes, las organizaciones pueden identificar oportunidades de crecimiento, optimizar procesos, entender mejor a sus clientes y anticiparse a tendencias, lo que se traduce en mayor eficiencia operativa, ventaja competitiva y maximización de resultados.",
+      "kpis": [
+        "Precisión en forecasting de demanda",
+        "Margen de contribución",
+        "Performance de catálogo",
+        "Data accuracy / calidad de datos: confiabilidad de la información.",
+        "Tiempo de generación de reportes: eficiencia en análisis.",
+        "Adopción de dashboards: uso por parte de equipos.",
+        "Conversion rate: impacto de insights en resultados.",
+        "Customer insights generados: profundidad del entendimiento del cliente.",
+        "Forecast accuracy: precisión de predicciones.",
+        "ROI de iniciativas basadas en datos: impacto en negocio.",
+        "Tiempo de toma de decisiones: agilidad organizacional.",
+        "Segmentación efectiva: mejora en targeting.",
+        "Resultados de optimización (A/B testing): mejora continua basada en datos"
+      ]
+    },
+    {
+      "id": "EC-04",
+      "title": "Inteligencia Artificial Aplicada",
+      "phase": "EXpandir+",
+      "area": "Innovación Tecnológica",
+      "priority": "Media",
+      "desc": "Integración de modelos predictivos y procesos automatizados mediante IA para mejorar la experiencia de usuario y la eficiencia operativa.",
+      "components": [
+        "Identificación de oportunidades de IA en marketing, ventas, atención y operaciones.( Explorar)",
+        "Definición de casos de uso (personalización, recomendadores, predicción, automatización).( Expandir)",
+        "Integración de fuentes de datos (CRM, comportamiento web, campañas, etc.).( Expandir)",
+        "Implementación de herramientas de IA (chatbots, machine learning, motores de recomendación).( Expandir)",
+        "Automatización de procesos (marketing, atención al cliente, segmentación).( Expandir)",
+        "Modelos predictivos (demanda, churn, comportamiento del usuario).( Excalar)",
+        "Optimización de campañas con IA (bidding automático, segmentación inteligente).( Expandir)",
+        "Entrenamiento y ajuste de modelos según resultados.( Excalar)",
+        "Monitoreo, evaluación y mejora continua basada en datos.( Excalar)"
+      ],
+      "justification": "La inteligencia artificial aplicada es clave porque permite automatizar y optimizar procesos mediante el análisis avanzado de datos, generando decisiones más rápidas, precisas y escalables; además, potencia la personalización a gran escala, mejora la experiencia del cliente y aumenta la eficiencia operativa al reducir tareas manuales, lo que se traduce en una mayor capacidad de adaptación, ventaja competitiva y crecimiento sostenible en entornos digitales altamente dinámicos.",
+      "kpis": [
+        "Reducción en tasa de abandono",
+        "Precisión en forecasting de inventario",
+        "Incremento en conversión por personalización",
+        "Incremento en tasa de conversión: impacto de la personalización y automatización.",
+        "Reducción de costos operativos: eficiencia lograda con IA.",
+        "Precisión de modelos predictivos: calidad de las predicciones",
+        "Engagement personalizado: interacción basada en recomendaciones.",
+        "Tiempo de respuesta automatizado: eficiencia en atención (chatbots).",
+        "Tasa de retención / churn rate: mejora en fidelización.",
+        "ROI de iniciativas de IA: retorno de inversión en tecnología.",
+        "Automatización de tareas (%): nivel de procesos optimizados.",
+        "CTR y performance de campañas optimizadas con IA.",
+        "Resultados de optimización continua (A/B testing + IA)."
+      ]
+    },
+    {
+      "id": "EC-05",
+      "title": "Operación de Ecommerce",
+      "phase": "EXpandir+",
+      "area": "Gestión Operativa",
+      "priority": "Crítica",
+      "desc": "Administración integral de la cadena de suministro digital, plataformas de venta y procesos de cumplimiento.",
+      "components": [
+        "Gestión de la plataforma ecommerce (catálogo, precios, inventario).(Expandir)",
+        "Optimización de la experiencia de usuario (UX/UI) en la tienda online.(Expandir)",
+        "Gestión de pedidos y logística (procesamiento, envíos, devoluciones).(Expandir)",
+        "Integración de pasarelas de pago y métodos de cobro.(Expandir)",
+        "Atención al cliente (pre y post venta).(Expandir)",
+        "Ejecución de estrategias comerciales (promociones, descuentos, cross-selling, upselling).(Expandir)",
+        "Gestión de tráfico y adquisición (SEO, SEM, redes, afiliados).(Expandir)",
+        "Automatización de procesos (emails, carritos abandonados, CRM).(Expandir)",
+        "Monitoreo y análisis de performance.(Expandir)",
+        "Optimización continua y A/B testing (landings, checkout, pricing).(Expandir)"
+      ],
+      "justification": "La operación ecommerce es fundamental porque garantiza el funcionamiento eficiente de toda la cadena digital de ventas, desde la atracción del usuario hasta la entrega del producto, asegurando una experiencia fluida, confiable y optimizada; además, permite maximizar conversiones, mejorar la satisfacción del cliente y escalar el negocio mediante la integración de tecnología, automatización y análisis de datos, lo que se traduce en mayor rentabilidad, crecimiento sostenido y competitividad en el entorno digital.",
+      "kpis": [
+        "Tiempos de entrega y tasa de error",
+        "NPS operativo",
+        "Optimización de costos logísticos",
+        "Tasa de conversión ecommerce: efectividad de la tienda para generar ventas.",
+        "Ticket promedio (AOV): valor promedio por compra.",
+        "Ingresos / revenue: ventas totales generadas.",
+        "Tasa de abandono de carrito: fricción en el proceso de compra.",
+        "Costo por adquisición (CPA): eficiencia en captación de clientes.",
+        "ROAS / ROI: rentabilidad de la inversión en marketing.",
+        "Tiempo de entrega: eficiencia logística.( OTIF)",
+        "Tasa de devoluciones: calidad del producto/experiencia.",
+        "Customer Lifetime Value (LTV): valor del cliente a largo plazo.",
+        "Retención y recompra: fidelización de clientes."
+      ]
+    },
+    {
+      "id": "EC-06",
+      "title": "Estrategia Comercial Ecommerce",
+      "phase": "EXplorar+",
+      "area": "Revenue Management",
+      "priority": "Alta",
+      "desc": "Diseño de planes de ingresos y tácticas comerciales para maximizar la rentabilidad del catálogo digital.",
+      "components": [
+        "Calendario comercial (Cyber Days, Black Friday)",
+        "Bundling, cross-selling y upselling",
+        "Estrategia de surtido",
+        "Programas de membresía",
+        "Definición de objetivos comerciales (ventas, crecimiento, rentabilidad). (Expandir)",
+        "Análisis de mercado y competencia para identificar oportunidades(Expandir)",
+        "Definición de propuesta de valor y pricing competitivo.(Expandir)",
+        "Gestión de portafolio de productos (mix, categorías, rotación).(Expandir)",
+        "Planificación de promociones y campañas comerciales (descuentos, bundles, temporadas).(Expandir)",
+        "Estrategias de revenue (upselling, cross-selling, suscripciones).(Expandir)",
+        "Gestión de canales de venta (web propia, marketplaces, social commerce).(Expandir)",
+        "Estrategia de adquisición y retención de clientes.(Expandir)",
+        "Coordinación con marketing y operaciones para ejecución.(Expandir)",
+        "Medición, análisis y optimización comercial continua.(Expandir)",
+        "Diagnostico Inicial (Explorar)"
+      ],
+      "justification": "La estrategia comercial ecommerce es clave porque define cómo el negocio genera ingresos de manera sostenible, alineando el portafolio de productos, precios, promociones y canales con las necesidades del mercado y el comportamiento del consumidor; además, permite maximizar el valor del cliente mediante tácticas de adquisición y fidelización, optimizar la rentabilidad a través de decisiones basadas en datos y coordinar de forma eficiente marketing y operaciones, lo que se traduce en un crecimiento escalable, mayor competitividad y mejores resultados financieros.",
+      "kpis": [
+        "Revenue Growth",
+        "Customer Lifetime Value (LTV)",
+        "Margen de rentabilidad comercial",
+        "Ingresos / revenue: ventas totales generadas.",
+        "Ticket promedio (AOV): valor promedio por compra.",
+        "Margen de contribución: rentabilidad por producto o categoría.",
+        "Tasa de conversión: efectividad para generar ventas.",
+        "Customer Lifetime Value (LTV): valor del cliente en el tiempo.",
+        "Costo de adquisición (CAC): inversión para captar clientes.",
+        "Ratio LTV/CAC: sostenibilidad del negocio.",
+        "Rotación de inventario: eficiencia en ventas de productos.",
+        "Tasa de recompra / retención: fidelización de clientes.",
+        "Performance por canal: ingresos y rentabilidad por canal de venta."
+      ]
+    },
+    {
+      "id": "ARQ-01",
+      "title": "Desarrollo de Marcas",
+      "phase": "EXplorar+",
+      "area": "Identidad Visual",
+      "priority": "Alta",
+      "desc": "Creación de sistemas visuales integrales diseñados para proporcionar un lenguaje visual escalable y coherente en múltiples plataformas.",
+      "components": [
+        "Sistema de lenguaje visual adaptable",
+        "Estándares de calidad para ejecución rápida",
+        "Estructura anti-rebrandings prematuros"
+      ],
+      "justification": "",
+      "kpis": [
+        "Reducción de costos por estandarización visual",
+        "Longevidad de marca (evitar rebranding 6 meses)"
+      ]
+    },
+    {
+      "id": "ARQ-02",
+      "title": "Branding Estratégico",
+      "phase": "EXplorar+",
+      "area": "Estrategia de Marca",
+      "priority": "Alta",
+      "desc": "Definición del ADN competitivo y comportamiento de marca para establecer diferenciación en mercados saturados.",
+      "components": [
+        "Definición de narrativa y tono",
+        "Estructuración del comportamiento visual y estratégico"
+      ],
+      "justification": "",
+      "kpis": [
+        "Capacidad de atracción de Venture Capital",
+        "Justificación de Premium pricing desde lanzamiento"
+      ]
+    },
+    {
+      "id": "ARQ-03",
+      "title": "Web Design",
+      "phase": "EXpandir+",
+      "area": "Arquitectura Digital",
+      "priority": "Alta",
+      "desc": "Diseño de interfaces de usuario optimizadas para la conversión, enfocadas en guiar al usuario hacia acciones de compra o registro.",
+      "components": [
+        "Optimización de UX",
+        "Flujos de navegación orientados a conversión"
+      ],
+      "justification": "",
+      "kpis": [
+        "ROI en pauta publicitaria",
+        "Tasa de conversión de tráfico a registros/ventas"
+      ]
+    },
+    {
+      "id": "ARQ-04",
+      "title": "High-Conversion UX/UI Systems",
+      "phase": "EXpandir+",
+      "area": "Diseño de Producto",
+      "priority": "Crítica",
+      "desc": "Desarrollo de ecosistemas de marca diseñados específicamente para el posicionamiento premium y el levantamiento de capital.",
+      "components": [
+        "Arquitectura web de alta conversión",
+        "Herramientas para validación de mercado"
+      ],
+      "justification": "",
+      "kpis": [
+        "Valor intangible generado desde el día cero",
+        "Tasa de conversión del portafolio de la aceleradora"
+      ]
+    },
+    {
+      "id": "ARQ-05",
+      "title": "Brand Engineering & Equity",
+      "phase": "EXcalar+",
+      "area": "Gestión de Activos",
+      "priority": "Crítica",
+      "desc": "Transformación del diseño gráfico tradicional en un activo financiero que facilita la escalabilidad y validación de la startup.",
+      "components": [
+        "Herramientas de validación y escalabilidad",
+        "Ingeniería estratégica de marca"
+      ],
+      "justification": "",
+      "kpis": [
+        "Incremento del valor de mercado de la startup",
+        "Precios competitivos basados en valor intangible"
+      ]
+    },
+    {
+      "id": "ARQ-06",
+      "title": "Design Due Diligence",
+      "phase": "EXplorar+",
+      "area": "Auditoría y Riesgos",
+      "priority": "Media-Alta",
+      "desc": "Servicio de consultoría técnica que audita la viabilidad estética y comunicativa de proyectos prospectos para la aceleradora.",
+      "components": [
+        "Filtro de calidad visual y comunicativa",
+        "Análisis de escalabilidad global",
+        "Curaduría de proyectos para inversión"
+      ],
+      "justification": "",
+      "kpis": [
+        "Ahorro financiero por prevención de inversión",
+        "Horas de desarrollo recuperadas"
+      ]
+    },
+    {
+      "id": "IE-01",
+      "title": "Consultoría y Asistencia Técnica Inicial",
+      "phase": "EXplorar+",
+      "area": "Comercio Exterior",
+      "priority": "Alta",
+      "desc": "Evaluación técnica preliminar para determinar la viabilidad regulatoria y financiera de una operación de comercio exterior.",
+      "components": [
+        "Clasificación arancelaria técnica",
+        "Auditoría de restricciones legales",
+        "Revisión de normas técnicas",
+        "Proyección de costeo"
+      ],
+      "justification": "",
+      "kpis": [
+        "Precisión en costeo proyectado vs real",
+        "Tasa de cumplimiento documental en pre-inspección"
+      ]
+    },
+    {
+      "id": "IE-02",
+      "title": "Gestión de Resultados y Operaciones",
+      "phase": "EXpandir+",
+      "area": "Comercio Exterior",
+      "priority": "Crítica",
+      "desc": "Ejecución y supervisión de la cadena de suministro internacional, desde la validación del origen hasta el ingreso legal al país.",
+      "components": [
+        "Sourcing y validación de proveedores en China",
+        "Gestión documental aduanera",
+        "Coordinación logística multimodal",
+        "Supervisión de nacionalización"
+      ],
+      "justification": "",
+      "kpis": [
+        "Lead Time de importación",
+        "Reducción de costos logísticos por Incoterm",
+        "Confiabilidad de proveedores"
+      ]
+    },
+    {
+      "id": "IT-01",
+      "title": "Marca Digital y Landing Page",
+      "phase": "EXpandir+",
+      "area": "Crecimiento y Conversión",
+      "priority": "Alta",
+      "desc": "Implementación de activos web responsivos para la captación de leads y validación comercial de ofertas digitales.",
+      "components": [
+        "Diseño de interfaz responsiva",
+        "Configuración de hosting y dominio",
+        "Píxeles de seguimiento",
+        "Formularios integrados"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tasa de conversión visitantes a leads",
+        "Tiempo de carga (LCP)"
+      ]
+    },
+    {
+      "id": "IT-02",
+      "title": "Chatbot de Ventas (Fase Beta)",
+      "phase": "EXpandir+",
+      "area": "Crecimiento y Conversión",
+      "priority": "Alta",
+      "desc": "Sistema de automatización para atención primaria y calificación de prospectos vía WhatsApp y Web.",
+      "components": [
+        "Árbol de decisión lógico",
+        "Módulo de captura de datos",
+        "Protocolo de escalamiento a agente humano"
+      ],
+      "justification": "",
+      "kpis": [
+        "% de leads filtrados sin intervención humana",
+        "Tiempo medio de respuesta inicial"
+      ]
+    },
+    {
+      "id": "IT-03",
+      "title": "Chatbot de Asesoría Avanzada",
+      "phase": "EXcalar+",
+      "area": "Crecimiento y Conversión",
+      "priority": "Media-Alta",
+      "desc": "Implementación de un LLM especializado en cierre de ventas mediante persuasión basada en datos técnicos y comparativos.",
+      "components": [
+        "Integración con base de datos de productos",
+        "Matriz comparativa de competidores",
+        "Modelo NLP"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tasa de cierre de ventas asistida por IA",
+        "Precisión de información vs matriz de competencia"
+      ]
+    },
+    {
+      "id": "IT-04",
+      "title": "Automatización 360°",
+      "phase": "EXpandir+",
+      "area": "Eficiencia Operativa",
+      "priority": "Crítica",
+      "desc": "Integración técnica de flujos de trabajo para eliminar carga operativa manual y error humano en procesos administrativos.",
+      "components": [
+        "Conexión API entre CRM y contable",
+        "Integración plataformas publicitarias",
+        "Sincronización de flujos contables"
+      ],
+      "justification": "",
+      "kpis": [
+        "Reducción de horas hombre en tareas repetitivas",
+        "Disminución de errores en registros"
+      ]
+    },
+    {
+      "id": "IT-05",
+      "title": "Carga Masiva de Productos",
+      "phase": "EXpandir+",
+      "area": "Eficiencia Operativa",
+      "priority": "Alta",
+      "desc": "Herramienta de sincronización masiva para la actualización de catálogos entre almacén físico y tienda virtual.",
+      "components": [
+        "Script para procesamiento CSV/Excel",
+        "Sincronización bidireccional de fotos, precios y stock"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tiempo de procesamiento de carga",
+        "Índice de discrepancia de stock"
+      ]
+    },
+    {
+      "id": "IT-06",
+      "title": "Infraestructura para Legalización",
+      "phase": "EXplorar+",
+      "area": "Eficiencia Operativa",
+      "priority": "Media-Alta",
+      "desc": "Ecosistema digital para agilizar la formalización técnica y financiera de nuevas unidades de negocio.",
+      "components": [
+        "Repositorio documental centralizado",
+        "Alertas de cumplimiento legal/tributario",
+        "Configuración de pasarelas de pago"
+      ],
+      "justification": "",
+      "kpis": [
+        "Tiempo promedio de habilitación técnica",
+        "Cumplimiento de hitos legales en fechas programadas"
+      ]
+    },
+    {
+      "id": "IT-07",
+      "title": "Data Analytics para Ventas",
+      "phase": "EXpandir+",
+      "area": "Inteligencia de Negocios",
+      "priority": "Alta",
+      "desc": "Centralización y visualización de indicadores críticos de marketing y ventas para decisiones basada en evidencia.",
+      "components": [
+        "Dashboards de visualización ejecutiva",
+        "ETL de plataformas de marketing y ventas"
+      ],
+      "justification": "",
+      "kpis": [
+        "Disponibilidad de datos en tiempo real",
+        "Incremento en precisión de pronósticos"
+      ]
+    },
+    {
+      "id": "IT-08",
+      "title": "Web Scraping de Competencia",
+      "phase": "EXplorar+",
+      "area": "Inteligencia de Negocios",
+      "priority": "Media",
+      "desc": "Sistema automatizado de extracción de datos de competidores para ajustar estrategias de precios dinámicos.",
+      "components": [
+        "Scripts de extracción automatizada",
+        "Datos en formatos estructurados (BD o CSV)"
+      ],
+      "justification": "",
+      "kpis": [
+        "Frecuencia de actualización de matriz de precios",
+        "Margen de competitividad de precios"
+      ]
+    },
+    {
+      "id": "IT-09",
+      "title": "Chatbot de Conocimiento (RAG)",
+      "phase": "EXcalar+",
+      "area": "Inteligencia de Negocios",
+      "priority": "Media",
+      "desc": "Implementación de IA basada en RAG para soporte interno en procesos de RRHH y operativos.",
+      "components": [
+        "Base de datos vectorial con documentos empresariales",
+        "Restricción de respuestas a información oficial"
+      ],
+      "justification": "",
+      "kpis": [
+        "Reducción de consultas manuales a RRHH y soporte técnico"
+      ]
+    },
+    {
+      "id": "IT-10",
+      "title": "Tracking Hub (Seguimiento)",
+      "phase": "EXpandir+",
+      "area": "Logística e Importaciones",
+      "priority": "Crítica",
+      "desc": "Interfaz de transparencia logística que permite el rastreo en tiempo real de mercancías desde origen hasta destino final.",
+      "components": [
+        "Conexión con APIs de aduanas y transportistas",
+        "Interfaz de rastreo por guía",
+        "Visualización de estados en tiempo real"
+      ],
+      "justification": "",
+      "kpis": [
+        "Reducción de tickets de soporte por estado de pedido",
+        "NPS logístico"
+      ]
+    }
+  ]
+}
